@@ -18,7 +18,8 @@ typedef void (^CompletionWithErrorBlock)(BOOL success, NSError *error);
 typedef void (^CompletionWithDictionaryBlock)(NSDictionary *dictionary, NSError *error);
 typedef void (^CompletionWithArrayBlock)(NSArray *array, NSError *error);
 
-
+#pragma
+#pragma mark - Basic User Functions
 + (void)signupUserWithName:(NSString *)username
               WithPassword:(NSString *)password
                   AndEmail:(NSString *)email
