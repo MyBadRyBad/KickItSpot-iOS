@@ -56,6 +56,7 @@
 		57087F711C613DC000FA3ADC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		57E7D71A1C61A7D9000641D5 /* BackendFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BackendFunctions.h; path = ../BackendFunctions.h; sourceTree = "<group>"; };
 		57E7D71B1C61A7D9000641D5 /* BackendFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BackendFunctions.m; path = ../BackendFunctions.m; sourceTree = "<group>"; };
+		57E7D71E1C6310F9000641D5 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		6C1E430C9D9D56069D144663 /* Pods-KickitSpotMobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KickitSpotMobile.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KickitSpotMobile/Pods-KickitSpotMobile.debug.xcconfig"; sourceTree = "<group>"; };
 		C34F30B93C64F5933B216930 /* libPods-KickitSpotMobile.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KickitSpotMobile.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -156,6 +157,7 @@
 			children = (
 				57E7D71A1C61A7D9000641D5 /* BackendFunctions.h */,
 				57E7D71B1C61A7D9000641D5 /* BackendFunctions.m */,
+				57E7D71E1C6310F9000641D5 /* Constants.h */,
 			);
 			name = "Helper Files";
 			sourceTree = "<group>";
