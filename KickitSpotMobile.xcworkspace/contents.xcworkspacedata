@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:KickitSpotMobile.xcodeproj">
+      location = "group:/Users/ryanbadilla/Programming/KickItSpot-iOS/KickitSpot.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">

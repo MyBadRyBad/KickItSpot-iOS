@@ -3,20 +3,22 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 47;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		13C27B11C45D1C5F66731BFA /* libPods-KickitSpotMobile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C34F30B93C64F5933B216930 /* libPods-KickitSpotMobile.a */; };
 		57087F4C1C613DC000FA3ADC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 57087F4B1C613DC000FA3ADC /* main.m */; };
-		57087F4F1C613DC000FA3ADC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57087F4E1C613DC000FA3ADC /* AppDelegate.m */; };
-		57087F521C613DC000FA3ADC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57087F511C613DC000FA3ADC /* ViewController.m */; };
 		57087F551C613DC000FA3ADC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57087F531C613DC000FA3ADC /* Main.storyboard */; };
 		57087F571C613DC000FA3ADC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57087F561C613DC000FA3ADC /* Assets.xcassets */; };
 		57087F5A1C613DC000FA3ADC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57087F581C613DC000FA3ADC /* LaunchScreen.storyboard */; };
 		57087F651C613DC000FA3ADC /* KickitSpotMobileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57087F641C613DC000FA3ADC /* KickitSpotMobileTests.m */; };
 		57087F701C613DC000FA3ADC /* KickitSpotMobileUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57087F6F1C613DC000FA3ADC /* KickitSpotMobileUITests.m */; };
-		57E7D71C1C61A7D9000641D5 /* BackendFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 57E7D71B1C61A7D9000641D5 /* BackendFunctions.m */; };
+		6EBEF1721C68035D00D2EF22 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EBEF1711C68035D00D2EF22 /* AppDelegate.m */; };
+		6EBEF1751C68036C00D2EF22 /* SignInView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EBEF1741C68036C00D2EF22 /* SignInView.m */; };
+		6EBEF17A1C68037A00D2EF22 /* FrontPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EBEF1771C68037A00D2EF22 /* FrontPageViewController.m */; };
+		6EBEF17B1C68037A00D2EF22 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EBEF1791C68037A00D2EF22 /* ViewController.m */; };
+		6EBEF17E1C68039000D2EF22 /* BackendFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EBEF17D1C68039000D2EF22 /* BackendFunctions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,26 +40,30 @@
 
 /* Begin PBXFileReference section */
 		218AAC6CD709B16A533B4E65 /* Pods-KickitSpotMobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KickitSpotMobile.release.xcconfig"; path = "Pods/Target Support Files/Pods-KickitSpotMobile/Pods-KickitSpotMobile.release.xcconfig"; sourceTree = "<group>"; };
-		57087F471C613DC000FA3ADC /* KickitSpotMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KickitSpotMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57087F471C613DC000FA3ADC /* KickitSpot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KickitSpot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57087F4B1C613DC000FA3ADC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		57087F4D1C613DC000FA3ADC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		57087F4E1C613DC000FA3ADC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		57087F501C613DC000FA3ADC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		57087F511C613DC000FA3ADC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		57087F541C613DC000FA3ADC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		57087F561C613DC000FA3ADC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		57087F591C613DC000FA3ADC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		57087F5B1C613DC000FA3ADC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		57087F601C613DC000FA3ADC /* KickitSpotMobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KickitSpotMobileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57087F601C613DC000FA3ADC /* KickitSpot.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KickitSpot.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		57087F641C613DC000FA3ADC /* KickitSpotMobileTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KickitSpotMobileTests.m; sourceTree = "<group>"; };
 		57087F661C613DC000FA3ADC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		57087F6B1C613DC000FA3ADC /* KickitSpotMobileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KickitSpotMobileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57087F6B1C613DC000FA3ADC /* KickitSpot.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KickitSpot.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		57087F6F1C613DC000FA3ADC /* KickitSpotMobileUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KickitSpotMobileUITests.m; sourceTree = "<group>"; };
 		57087F711C613DC000FA3ADC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		57E7D71A1C61A7D9000641D5 /* BackendFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BackendFunctions.h; path = ../BackendFunctions.h; sourceTree = "<group>"; };
-		57E7D71B1C61A7D9000641D5 /* BackendFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BackendFunctions.m; path = ../BackendFunctions.m; sourceTree = "<group>"; };
-		57E7D71E1C6310F9000641D5 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		6C1E430C9D9D56069D144663 /* Pods-KickitSpotMobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KickitSpotMobile.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KickitSpotMobile/Pods-KickitSpotMobile.debug.xcconfig"; sourceTree = "<group>"; };
+		6EBEF1701C68035D00D2EF22 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = AppDelegate/AppDelegate.h; sourceTree = "<group>"; };
+		6EBEF1711C68035D00D2EF22 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = AppDelegate/AppDelegate.m; sourceTree = "<group>"; };
+		6EBEF1731C68036C00D2EF22 /* SignInView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SignInView.h; path = Subviews/SignInView.h; sourceTree = "<group>"; };
+		6EBEF1741C68036C00D2EF22 /* SignInView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SignInView.m; path = Subviews/SignInView.m; sourceTree = "<group>"; };
+		6EBEF1761C68037A00D2EF22 /* FrontPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FrontPageViewController.h; path = ViewControllers/FrontPageViewController.h; sourceTree = "<group>"; };
+		6EBEF1771C68037A00D2EF22 /* FrontPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FrontPageViewController.m; path = ViewControllers/FrontPageViewController.m; sourceTree = "<group>"; };
+		6EBEF1781C68037A00D2EF22 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ViewControllers/ViewController.h; sourceTree = "<group>"; };
+		6EBEF1791C68037A00D2EF22 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ViewControllers/ViewController.m; sourceTree = "<group>"; };
+		6EBEF17C1C68039000D2EF22 /* BackendFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BackendFunctions.h; path = HelperFiles/BackendFunctions.h; sourceTree = "<group>"; };
+		6EBEF17D1C68039000D2EF22 /* BackendFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BackendFunctions.m; path = HelperFiles/BackendFunctions.m; sourceTree = "<group>"; };
+		6EBEF17F1C6803AE00D2EF22 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = HelperFiles/Constants.h; sourceTree = "<group>"; };
 		C34F30B93C64F5933B216930 /* libPods-KickitSpotMobile.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KickitSpotMobile.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -102,9 +108,9 @@
 		57087F481C613DC000FA3ADC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				57087F471C613DC000FA3ADC /* KickitSpotMobile.app */,
-				57087F601C613DC000FA3ADC /* KickitSpotMobileTests.xctest */,
-				57087F6B1C613DC000FA3ADC /* KickitSpotMobileUITests.xctest */,
+				57087F471C613DC000FA3ADC /* KickitSpot.app */,
+				57087F601C613DC000FA3ADC /* KickitSpot.xctest */,
+				57087F6B1C613DC000FA3ADC /* KickitSpot.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,10 +118,9 @@
 		57087F491C613DC000FA3ADC /* KickitSpotMobile */ = {
 			isa = PBXGroup;
 			children = (
-				57087F4D1C613DC000FA3ADC /* AppDelegate.h */,
-				57087F4E1C613DC000FA3ADC /* AppDelegate.m */,
-				57087F501C613DC000FA3ADC /* ViewController.h */,
-				57087F511C613DC000FA3ADC /* ViewController.m */,
+				6EBEF16A1C6802E300D2EF22 /* AppDelegate */,
+				6EBEF16C1C6802F200D2EF22 /* Subviews */,
+				6EBEF16B1C6802E800D2EF22 /* ViewControllers */,
 				57E7D71D1C61A7E8000641D5 /* Helper Files */,
 				57087F531C613DC000FA3ADC /* Main.storyboard */,
 				57087F561C613DC000FA3ADC /* Assets.xcassets */,
@@ -155,9 +160,9 @@
 		57E7D71D1C61A7E8000641D5 /* Helper Files */ = {
 			isa = PBXGroup;
 			children = (
-				57E7D71A1C61A7D9000641D5 /* BackendFunctions.h */,
-				57E7D71B1C61A7D9000641D5 /* BackendFunctions.m */,
-				57E7D71E1C6310F9000641D5 /* Constants.h */,
+				6EBEF17F1C6803AE00D2EF22 /* Constants.h */,
+				6EBEF17C1C68039000D2EF22 /* BackendFunctions.h */,
+				6EBEF17D1C68039000D2EF22 /* BackendFunctions.m */,
 			);
 			name = "Helper Files";
 			sourceTree = "<group>";
@@ -171,6 +176,35 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		6EBEF16A1C6802E300D2EF22 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				6EBEF1701C68035D00D2EF22 /* AppDelegate.h */,
+				6EBEF1711C68035D00D2EF22 /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		6EBEF16B1C6802E800D2EF22 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				6EBEF1761C68037A00D2EF22 /* FrontPageViewController.h */,
+				6EBEF1771C68037A00D2EF22 /* FrontPageViewController.m */,
+				6EBEF1781C68037A00D2EF22 /* ViewController.h */,
+				6EBEF1791C68037A00D2EF22 /* ViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		6EBEF16C1C6802F200D2EF22 /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				6EBEF1731C68036C00D2EF22 /* SignInView.h */,
+				6EBEF1741C68036C00D2EF22 /* SignInView.m */,
+			);
+			name = Subviews;
+			sourceTree = "<group>";
+		};
 		F18FFE6E845E93299A736262 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -182,9 +216,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		57087F461C613DC000FA3ADC /* KickitSpotMobile */ = {
+		57087F461C613DC000FA3ADC /* KickitSpot */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 57087F741C613DC000FA3ADC /* Build configuration list for PBXNativeTarget "KickitSpotMobile" */;
+			buildConfigurationList = 57087F741C613DC000FA3ADC /* Build configuration list for PBXNativeTarget "KickitSpot" */;
 			buildPhases = (
 				0B08415AE2489E6000015D1E /* Check Pods Manifest.lock */,
 				57087F431C613DC000FA3ADC /* Sources */,
@@ -197,14 +231,14 @@
 			);
 			dependencies = (
 			);
-			name = KickitSpotMobile;
+			name = KickitSpot;
 			productName = KickitSpotMobile;
-			productReference = 57087F471C613DC000FA3ADC /* KickitSpotMobile.app */;
+			productReference = 57087F471C613DC000FA3ADC /* KickitSpot.app */;
 			productType = "com.apple.product-type.application";
 		};
-		57087F5F1C613DC000FA3ADC /* KickitSpotMobileTests */ = {
+		57087F5F1C613DC000FA3ADC /* KickitSpotTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 57087F771C613DC000FA3ADC /* Build configuration list for PBXNativeTarget "KickitSpotMobileTests" */;
+			buildConfigurationList = 57087F771C613DC000FA3ADC /* Build configuration list for PBXNativeTarget "KickitSpotTests" */;
 			buildPhases = (
 				57087F5C1C613DC000FA3ADC /* Sources */,
 				57087F5D1C613DC000FA3ADC /* Frameworks */,
@@ -215,14 +249,14 @@
 			dependencies = (
 				57087F621C613DC000FA3ADC /* PBXTargetDependency */,
 			);
-			name = KickitSpotMobileTests;
+			name = KickitSpotTests;
 			productName = KickitSpotMobileTests;
-			productReference = 57087F601C613DC000FA3ADC /* KickitSpotMobileTests.xctest */;
+			productReference = 57087F601C613DC000FA3ADC /* KickitSpot.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		57087F6A1C613DC000FA3ADC /* KickitSpotMobileUITests */ = {
+		57087F6A1C613DC000FA3ADC /* KickitSpotUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 57087F7A1C613DC000FA3ADC /* Build configuration list for PBXNativeTarget "KickitSpotMobileUITests" */;
+			buildConfigurationList = 57087F7A1C613DC000FA3ADC /* Build configuration list for PBXNativeTarget "KickitSpotUITests" */;
 			buildPhases = (
 				57087F671C613DC000FA3ADC /* Sources */,
 				57087F681C613DC000FA3ADC /* Frameworks */,
@@ -233,9 +267,9 @@
 			dependencies = (
 				57087F6D1C613DC000FA3ADC /* PBXTargetDependency */,
 			);
-			name = KickitSpotMobileUITests;
+			name = KickitSpotUITests;
 			productName = KickitSpotMobileUITests;
-			productReference = 57087F6B1C613DC000FA3ADC /* KickitSpotMobileUITests.xctest */;
+			productReference = 57087F6B1C613DC000FA3ADC /* KickitSpot.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -245,7 +279,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0720;
-				ORGANIZATIONNAME = "Irwin Gonzales";
+				ORGANIZATIONNAME = Newdesto;
 				TargetAttributes = {
 					57087F461C613DC000FA3ADC = {
 						CreatedOnToolsVersion = 7.2;
@@ -263,8 +297,8 @@
 					};
 				};
 			};
-			buildConfigurationList = 57087F421C613DC000FA3ADC /* Build configuration list for PBXProject "KickitSpotMobile" */;
-			compatibilityVersion = "Xcode 3.2";
+			buildConfigurationList = 57087F421C613DC000FA3ADC /* Build configuration list for PBXProject "KickitSpot" */;
+			compatibilityVersion = "Xcode 6.3";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -276,9 +310,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				57087F461C613DC000FA3ADC /* KickitSpotMobile */,
-				57087F5F1C613DC000FA3ADC /* KickitSpotMobileTests */,
-				57087F6A1C613DC000FA3ADC /* KickitSpotMobileUITests */,
+				57087F461C613DC000FA3ADC /* KickitSpot */,
+				57087F5F1C613DC000FA3ADC /* KickitSpotTests */,
+				57087F6A1C613DC000FA3ADC /* KickitSpotUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -363,10 +397,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57087F521C613DC000FA3ADC /* ViewController.m in Sources */,
-				57087F4F1C613DC000FA3ADC /* AppDelegate.m in Sources */,
-				57E7D71C1C61A7D9000641D5 /* BackendFunctions.m in Sources */,
+				6EBEF17E1C68039000D2EF22 /* BackendFunctions.m in Sources */,
+				6EBEF17A1C68037A00D2EF22 /* FrontPageViewController.m in Sources */,
+				6EBEF17B1C68037A00D2EF22 /* ViewController.m in Sources */,
+				6EBEF1751C68036C00D2EF22 /* SignInView.m in Sources */,
 				57087F4C1C613DC000FA3ADC /* main.m in Sources */,
+				6EBEF1721C68035D00D2EF22 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,12 +427,12 @@
 /* Begin PBXTargetDependency section */
 		57087F621C613DC000FA3ADC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 57087F461C613DC000FA3ADC /* KickitSpotMobile */;
+			target = 57087F461C613DC000FA3ADC /* KickitSpot */;
 			targetProxy = 57087F611C613DC000FA3ADC /* PBXContainerItemProxy */;
 		};
 		57087F6D1C613DC000FA3ADC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 57087F461C613DC000FA3ADC /* KickitSpotMobile */;
+			target = 57087F461C613DC000FA3ADC /* KickitSpot */;
 			targetProxy = 57087F6C1C613DC000FA3ADC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -510,8 +546,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = KickitSpotMobile/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.irwingonzales.KickitSpotMobile;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.newdesto.KickItSpot;
+				PRODUCT_NAME = KickitSpot;
 			};
 			name = Debug;
 		};
@@ -522,8 +558,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = KickitSpotMobile/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.irwingonzales.KickitSpotMobile;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.newdesto.KickItSpot;
+				PRODUCT_NAME = KickitSpot;
 			};
 			name = Release;
 		};
@@ -534,8 +570,8 @@
 				INFOPLIST_FILE = KickitSpotMobileTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.irwingonzales.KickitSpotMobileTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KickitSpotMobile.app/KickitSpotMobile";
+				PRODUCT_NAME = KickitSpot;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KickitSpot.app/KickitSpot";
 			};
 			name = Debug;
 		};
@@ -546,8 +582,8 @@
 				INFOPLIST_FILE = KickitSpotMobileTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.irwingonzales.KickitSpotMobileTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KickitSpotMobile.app/KickitSpotMobile";
+				PRODUCT_NAME = KickitSpot;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KickitSpot.app/KickitSpot";
 			};
 			name = Release;
 		};
@@ -557,7 +593,7 @@
 				INFOPLIST_FILE = KickitSpotMobileUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.irwingonzales.KickitSpotMobileUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = KickitSpot;
 				TEST_TARGET_NAME = KickitSpotMobile;
 				USES_XCTRUNNER = YES;
 			};
@@ -569,7 +605,7 @@
 				INFOPLIST_FILE = KickitSpotMobileUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.irwingonzales.KickitSpotMobileUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = KickitSpot;
 				TEST_TARGET_NAME = KickitSpotMobile;
 				USES_XCTRUNNER = YES;
 			};
@@ -578,7 +614,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		57087F421C613DC000FA3ADC /* Build configuration list for PBXProject "KickitSpotMobile" */ = {
+		57087F421C613DC000FA3ADC /* Build configuration list for PBXProject "KickitSpot" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				57087F721C613DC000FA3ADC /* Debug */,
@@ -587,7 +623,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		57087F741C613DC000FA3ADC /* Build configuration list for PBXNativeTarget "KickitSpotMobile" */ = {
+		57087F741C613DC000FA3ADC /* Build configuration list for PBXNativeTarget "KickitSpot" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				57087F751C613DC000FA3ADC /* Debug */,
@@ -596,7 +632,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		57087F771C613DC000FA3ADC /* Build configuration list for PBXNativeTarget "KickitSpotMobileTests" */ = {
+		57087F771C613DC000FA3ADC /* Build configuration list for PBXNativeTarget "KickitSpotTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				57087F781C613DC000FA3ADC /* Debug */,
@@ -605,7 +641,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		57087F7A1C613DC000FA3ADC /* Build configuration list for PBXNativeTarget "KickitSpotMobileUITests" */ = {
+		57087F7A1C613DC000FA3ADC /* Build configuration list for PBXNativeTarget "KickitSpotUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				57087F7B1C613DC000FA3ADC /* Debug */,

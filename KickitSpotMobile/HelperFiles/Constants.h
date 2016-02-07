@@ -64,7 +64,7 @@ static CGFloat const kButtonFontSize = 20.0f;
 static NSString* const kAlertViewErrorTitle = @"Uh oh!";
 static NSString* const kAlertViewErrorCancelButton = @"Ok";
 
-static NSString* const kAlertViewErrorMessage_AccountNeedsLink = @"It looks like you already have an account with SocialCypher. Sign in and then go to Settings to link your Facebook.";
+static NSString* const kAlertViewErrorMessage_AccountNeedsLink = @"It looks like you already have an account with KickItSpot. Sign in and then go to Settings to link your Facebook.";
 static NSInteger const kErrorCode_AccountNeedsLink = 1650;
 
 static NSString* const kAlertViewErrorMessage_ConnectionFailed = @"The Internet connection appears to be offline.";
