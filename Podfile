@@ -3,17 +3,13 @@
 # Uncomment this line if you're using Swift
 # use_frameworks!
 
-target 'KickitSpotMobile' do
+target 'KickitSpot' do
 
+pod 'ionicons'
 pod 'Parse'
-
+pod 'STPopup'
+pod 'MBProgressHUD', '~> 0.9.2'
+pod 'DGActivityIndicatorView'
 end
 
-target 'KickitSpotMobileTests' do
-
-end
-
-target 'KickitSpotMobileUITests' do
-
-end
 

@@ -6,33 +6,73 @@
 	<dict>
 		<key>Bolts.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>1</integer>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>DGActivityIndicatorView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>MBProgressHUD.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>Parse.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>2</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
-		<key>Pods-KickitSpotMobile.xcscheme</key>
+		<key>Pods-KickitSpot.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>3</integer>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>STPopup.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>ionicons.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>084B1FF8E099CDDF6B5FD3169504D512</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>12AC35F9C569FA2A4543EFEDD802D2C9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3637F8F26AB294F4C5E80CF06FC0514C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3A45927CD8EFD8323CB26E94F1BE2B1F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>4CD92797A96766670A60AE5197C5FB82</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>89EA820339C41BC11586DD6C83D49EA1</key>
+		<key>9B916844F33E8D3CF7BC18CE424E9721</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>9B916844F33E8D3CF7BC18CE424E9721</key>
+		<key>FE2F1D7B9D9FCEA148517E4657B243F4</key>
 		<dict>
 			<key>primary</key>
 			<true/>

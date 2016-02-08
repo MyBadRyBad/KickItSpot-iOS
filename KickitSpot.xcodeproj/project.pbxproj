@@ -16,9 +16,21 @@
 		57087F701C613DC000FA3ADC /* KickitSpotMobileUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57087F6F1C613DC000FA3ADC /* KickitSpotMobileUITests.m */; };
 		6EBEF1721C68035D00D2EF22 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EBEF1711C68035D00D2EF22 /* AppDelegate.m */; };
 		6EBEF1751C68036C00D2EF22 /* SignInView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EBEF1741C68036C00D2EF22 /* SignInView.m */; };
-		6EBEF17A1C68037A00D2EF22 /* FrontPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EBEF1771C68037A00D2EF22 /* FrontPageViewController.m */; };
-		6EBEF17B1C68037A00D2EF22 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EBEF1791C68037A00D2EF22 /* ViewController.m */; };
+		6EBEF17A1C68037A00D2EF22 /* MainPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EBEF1771C68037A00D2EF22 /* MainPageViewController.m */; };
 		6EBEF17E1C68039000D2EF22 /* BackendFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EBEF17D1C68039000D2EF22 /* BackendFunctions.m */; };
+		6EBEF1821C680B5100D2EF22 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EBEF1811C680B5100D2EF22 /* RootViewController.m */; };
+		6EBEF1861C680F8900D2EF22 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EBEF1851C680F8900D2EF22 /* AudioToolbox.framework */; };
+		6EBEF1881C680F9000D2EF22 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EBEF1871C680F9000D2EF22 /* CFNetwork.framework */; };
+		6EBEF18A1C680F9A00D2EF22 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EBEF1891C680F9A00D2EF22 /* CoreGraphics.framework */; };
+		6EBEF18C1C680FA300D2EF22 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EBEF18B1C680FA300D2EF22 /* CoreLocation.framework */; };
+		6EBEF18E1C680FAB00D2EF22 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EBEF18D1C680FAB00D2EF22 /* QuartzCore.framework */; };
+		6EBEF1901C680FB300D2EF22 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EBEF18F1C680FB300D2EF22 /* Security.framework */; };
+		6EBEF1921C680FBE00D2EF22 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EBEF1911C680FBE00D2EF22 /* StoreKit.framework */; };
+		6EBEF1941C680FC600D2EF22 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EBEF1931C680FC600D2EF22 /* SystemConfiguration.framework */; };
+		6EBEF1961C680FCD00D2EF22 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EBEF1951C680FCD00D2EF22 /* libz.tbd */; };
+		6EBEF1981C680FD700D2EF22 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EBEF1971C680FD700D2EF22 /* libsqlite3.tbd */; };
+		6EBEF1A21C6810A600D2EF22 /* KITabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EBEF1A11C6810A600D2EF22 /* KITabBarController.m */; };
+		F02496104BDD4BC726064943 /* libPods-KickitSpot.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A119DDB1E501F37BFCEB8435 /* libPods-KickitSpot.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +52,7 @@
 
 /* Begin PBXFileReference section */
 		218AAC6CD709B16A533B4E65 /* Pods-KickitSpotMobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KickitSpotMobile.release.xcconfig"; path = "Pods/Target Support Files/Pods-KickitSpotMobile/Pods-KickitSpotMobile.release.xcconfig"; sourceTree = "<group>"; };
+		42D1B3F61542516C6145DE60 /* Pods-KickitSpot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KickitSpot.release.xcconfig"; path = "Pods/Target Support Files/Pods-KickitSpot/Pods-KickitSpot.release.xcconfig"; sourceTree = "<group>"; };
 		57087F471C613DC000FA3ADC /* KickitSpot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KickitSpot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57087F4B1C613DC000FA3ADC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		57087F541C613DC000FA3ADC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -52,18 +65,32 @@
 		57087F6B1C613DC000FA3ADC /* KickitSpot.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KickitSpot.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		57087F6F1C613DC000FA3ADC /* KickitSpotMobileUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KickitSpotMobileUITests.m; sourceTree = "<group>"; };
 		57087F711C613DC000FA3ADC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		602BF4178C62AA0AEDA00EB1 /* Pods-KickitSpot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KickitSpot.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KickitSpot/Pods-KickitSpot.debug.xcconfig"; sourceTree = "<group>"; };
 		6C1E430C9D9D56069D144663 /* Pods-KickitSpotMobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KickitSpotMobile.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KickitSpotMobile/Pods-KickitSpotMobile.debug.xcconfig"; sourceTree = "<group>"; };
 		6EBEF1701C68035D00D2EF22 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = AppDelegate/AppDelegate.h; sourceTree = "<group>"; };
 		6EBEF1711C68035D00D2EF22 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = AppDelegate/AppDelegate.m; sourceTree = "<group>"; };
 		6EBEF1731C68036C00D2EF22 /* SignInView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SignInView.h; path = Subviews/SignInView.h; sourceTree = "<group>"; };
 		6EBEF1741C68036C00D2EF22 /* SignInView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SignInView.m; path = Subviews/SignInView.m; sourceTree = "<group>"; };
-		6EBEF1761C68037A00D2EF22 /* FrontPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FrontPageViewController.h; path = ViewControllers/FrontPageViewController.h; sourceTree = "<group>"; };
-		6EBEF1771C68037A00D2EF22 /* FrontPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FrontPageViewController.m; path = ViewControllers/FrontPageViewController.m; sourceTree = "<group>"; };
-		6EBEF1781C68037A00D2EF22 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ViewControllers/ViewController.h; sourceTree = "<group>"; };
-		6EBEF1791C68037A00D2EF22 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ViewControllers/ViewController.m; sourceTree = "<group>"; };
+		6EBEF1761C68037A00D2EF22 /* MainPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainPageViewController.h; path = ViewControllers/MainPageViewController.h; sourceTree = "<group>"; };
+		6EBEF1771C68037A00D2EF22 /* MainPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainPageViewController.m; path = ViewControllers/MainPageViewController.m; sourceTree = "<group>"; };
 		6EBEF17C1C68039000D2EF22 /* BackendFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BackendFunctions.h; path = HelperFiles/BackendFunctions.h; sourceTree = "<group>"; };
 		6EBEF17D1C68039000D2EF22 /* BackendFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BackendFunctions.m; path = HelperFiles/BackendFunctions.m; sourceTree = "<group>"; };
 		6EBEF17F1C6803AE00D2EF22 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = HelperFiles/Constants.h; sourceTree = "<group>"; };
+		6EBEF1801C680B5100D2EF22 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootViewController.h; path = RootViewController/RootViewController.h; sourceTree = "<group>"; };
+		6EBEF1811C680B5100D2EF22 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RootViewController.m; path = RootViewController/RootViewController.m; sourceTree = "<group>"; };
+		6EBEF1851C680F8900D2EF22 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		6EBEF1871C680F9000D2EF22 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		6EBEF1891C680F9A00D2EF22 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6EBEF18B1C680FA300D2EF22 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		6EBEF18D1C680FAB00D2EF22 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		6EBEF18F1C680FB300D2EF22 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		6EBEF1911C680FBE00D2EF22 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		6EBEF1931C680FC600D2EF22 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		6EBEF1951C680FCD00D2EF22 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		6EBEF1971C680FD700D2EF22 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		6EBEF1A01C6810A600D2EF22 /* KITabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KITabBarController.h; path = ViewControllers/KITabBarController/KITabBarController.h; sourceTree = "<group>"; };
+		6EBEF1A11C6810A600D2EF22 /* KITabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KITabBarController.m; path = ViewControllers/KITabBarController/KITabBarController.m; sourceTree = "<group>"; };
+		A119DDB1E501F37BFCEB8435 /* libPods-KickitSpot.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KickitSpot.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C34F30B93C64F5933B216930 /* libPods-KickitSpotMobile.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KickitSpotMobile.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -72,7 +99,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EBEF1981C680FD700D2EF22 /* libsqlite3.tbd in Frameworks */,
+				6EBEF1961C680FCD00D2EF22 /* libz.tbd in Frameworks */,
+				6EBEF1941C680FC600D2EF22 /* SystemConfiguration.framework in Frameworks */,
+				6EBEF1921C680FBE00D2EF22 /* StoreKit.framework in Frameworks */,
+				6EBEF1901C680FB300D2EF22 /* Security.framework in Frameworks */,
+				6EBEF18E1C680FAB00D2EF22 /* QuartzCore.framework in Frameworks */,
+				6EBEF18C1C680FA300D2EF22 /* CoreLocation.framework in Frameworks */,
+				6EBEF18A1C680F9A00D2EF22 /* CoreGraphics.framework in Frameworks */,
+				6EBEF1881C680F9000D2EF22 /* CFNetwork.framework in Frameworks */,
+				6EBEF1861C680F8900D2EF22 /* AudioToolbox.framework in Frameworks */,
 				13C27B11C45D1C5F66731BFA /* libPods-KickitSpotMobile.a in Frameworks */,
+				F02496104BDD4BC726064943 /* libPods-KickitSpot.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,13 +156,12 @@
 		57087F491C613DC000FA3ADC /* KickitSpotMobile */ = {
 			isa = PBXGroup;
 			children = (
+				6EBEF1841C680E6B00D2EF22 /* Storyboard */,
 				6EBEF16A1C6802E300D2EF22 /* AppDelegate */,
 				6EBEF16C1C6802F200D2EF22 /* Subviews */,
 				6EBEF16B1C6802E800D2EF22 /* ViewControllers */,
 				57E7D71D1C61A7E8000641D5 /* Helper Files */,
-				57087F531C613DC000FA3ADC /* Main.storyboard */,
 				57087F561C613DC000FA3ADC /* Assets.xcassets */,
-				57087F581C613DC000FA3ADC /* LaunchScreen.storyboard */,
 				57087F5B1C613DC000FA3ADC /* Info.plist */,
 				57087F4A1C613DC000FA3ADC /* Supporting Files */,
 			);
@@ -172,6 +209,8 @@
 			children = (
 				6C1E430C9D9D56069D144663 /* Pods-KickitSpotMobile.debug.xcconfig */,
 				218AAC6CD709B16A533B4E65 /* Pods-KickitSpotMobile.release.xcconfig */,
+				602BF4178C62AA0AEDA00EB1 /* Pods-KickitSpot.debug.xcconfig */,
+				42D1B3F61542516C6145DE60 /* Pods-KickitSpot.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -188,10 +227,9 @@
 		6EBEF16B1C6802E800D2EF22 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				6EBEF1761C68037A00D2EF22 /* FrontPageViewController.h */,
-				6EBEF1771C68037A00D2EF22 /* FrontPageViewController.m */,
-				6EBEF1781C68037A00D2EF22 /* ViewController.h */,
-				6EBEF1791C68037A00D2EF22 /* ViewController.m */,
+				6EBEF19C1C68104B00D2EF22 /* KITabBarController */,
+				6EBEF1991C68102D00D2EF22 /* KIViewControllers */,
+				6EBEF1831C680BB300D2EF22 /* RootViewController */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -205,10 +243,57 @@
 			name = Subviews;
 			sourceTree = "<group>";
 		};
+		6EBEF1831C680BB300D2EF22 /* RootViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6EBEF1801C680B5100D2EF22 /* RootViewController.h */,
+				6EBEF1811C680B5100D2EF22 /* RootViewController.m */,
+			);
+			name = RootViewController;
+			sourceTree = "<group>";
+		};
+		6EBEF1841C680E6B00D2EF22 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				57087F531C613DC000FA3ADC /* Main.storyboard */,
+				57087F581C613DC000FA3ADC /* LaunchScreen.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		6EBEF1991C68102D00D2EF22 /* KIViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				6EBEF1761C68037A00D2EF22 /* MainPageViewController.h */,
+				6EBEF1771C68037A00D2EF22 /* MainPageViewController.m */,
+			);
+			name = KIViewControllers;
+			sourceTree = "<group>";
+		};
+		6EBEF19C1C68104B00D2EF22 /* KITabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				6EBEF1A01C6810A600D2EF22 /* KITabBarController.h */,
+				6EBEF1A11C6810A600D2EF22 /* KITabBarController.m */,
+			);
+			name = KITabBarController;
+			sourceTree = "<group>";
+		};
 		F18FFE6E845E93299A736262 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6EBEF1971C680FD700D2EF22 /* libsqlite3.tbd */,
+				6EBEF1951C680FCD00D2EF22 /* libz.tbd */,
+				6EBEF1931C680FC600D2EF22 /* SystemConfiguration.framework */,
+				6EBEF1911C680FBE00D2EF22 /* StoreKit.framework */,
+				6EBEF18F1C680FB300D2EF22 /* Security.framework */,
+				6EBEF18D1C680FAB00D2EF22 /* QuartzCore.framework */,
+				6EBEF18B1C680FA300D2EF22 /* CoreLocation.framework */,
+				6EBEF1891C680F9A00D2EF22 /* CoreGraphics.framework */,
+				6EBEF1871C680F9000D2EF22 /* CFNetwork.framework */,
+				6EBEF1851C680F8900D2EF22 /* AudioToolbox.framework */,
 				C34F30B93C64F5933B216930 /* libPods-KickitSpotMobile.a */,
+				A119DDB1E501F37BFCEB8435 /* libPods-KickitSpot.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -372,7 +457,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KickitSpotMobile/Pods-KickitSpotMobile-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KickitSpot/Pods-KickitSpot-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D65C5E1F88672CA700929C38 /* Embed Pods Frameworks */ = {
@@ -387,7 +472,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KickitSpotMobile/Pods-KickitSpotMobile-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KickitSpot/Pods-KickitSpot-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -398,8 +483,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6EBEF17E1C68039000D2EF22 /* BackendFunctions.m in Sources */,
-				6EBEF17A1C68037A00D2EF22 /* FrontPageViewController.m in Sources */,
-				6EBEF17B1C68037A00D2EF22 /* ViewController.m in Sources */,
+				6EBEF1821C680B5100D2EF22 /* RootViewController.m in Sources */,
+				6EBEF17A1C68037A00D2EF22 /* MainPageViewController.m in Sources */,
+				6EBEF1A21C6810A600D2EF22 /* KITabBarController.m in Sources */,
 				6EBEF1751C68036C00D2EF22 /* SignInView.m in Sources */,
 				57087F4C1C613DC000FA3ADC /* main.m in Sources */,
 				6EBEF1721C68035D00D2EF22 /* AppDelegate.m in Sources */,
@@ -541,7 +627,7 @@
 		};
 		57087F751C613DC000FA3ADC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6C1E430C9D9D56069D144663 /* Pods-KickitSpotMobile.debug.xcconfig */;
+			baseConfigurationReference = 602BF4178C62AA0AEDA00EB1 /* Pods-KickitSpot.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = KickitSpotMobile/Info.plist;
@@ -553,7 +639,7 @@
 		};
 		57087F761C613DC000FA3ADC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 218AAC6CD709B16A533B4E65 /* Pods-KickitSpotMobile.release.xcconfig */;
+			baseConfigurationReference = 42D1B3F61542516C6145DE60 /* Pods-KickitSpot.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = KickitSpotMobile/Info.plist;

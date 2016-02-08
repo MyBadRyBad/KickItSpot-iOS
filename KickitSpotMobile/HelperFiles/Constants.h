@@ -24,7 +24,6 @@
 
 // user class
 static NSString* const kParseClassUserKey =         @"User";
-
 static NSString* const kParseUserProfilePictureKey = @"profilePicture";
 static NSString* const kParseUserLocationKey =      @"location";
 static NSString* const kParseUserFirstNameKey =     @"first_name";
