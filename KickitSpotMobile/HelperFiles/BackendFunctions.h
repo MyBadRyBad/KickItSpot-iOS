@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
+
 @interface BackendFunctions : NSObject
 
 /////////////////////////////
@@ -49,8 +50,8 @@ typedef void (^ArrayReturnBlock)(NSArray *array, NSError *error);
                     inArray:(ArrayReturnBlock)returnArray;
 
 + (void)saveChatMessageWithText:(NSString *)message
-                       withUser:(PFUser *)user
-                      andSpotId: (PFObject *)spot;
+                       withUser:(NSDictionary *)user
+                      andSpotId: (NSDictionary *)spot;
 
 #pragma 
 #pragma mark - Basic News Query/Save
@@ -59,7 +60,7 @@ typedef void (^ArrayReturnBlock)(NSArray *array, NSError *error);
                     inArray:(ArrayReturnBlock)returnArray;
 
 + (void)saveNewsMessageWithText:(NSString *)message
-                       withUser:(PFUser *)user
-                      andSpotId:(PFObject *)spot;
+                       withUser:(NSDictionary *)user
+                      andSpotId:(NSDictionary *)spot;
 
 @end

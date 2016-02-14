@@ -14,6 +14,65 @@
 		57087F5A1C613DC000FA3ADC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57087F581C613DC000FA3ADC /* LaunchScreen.storyboard */; };
 		57087F651C613DC000FA3ADC /* KickitSpotMobileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57087F641C613DC000FA3ADC /* KickitSpotMobileTests.m */; };
 		57087F701C613DC000FA3ADC /* KickitSpotMobileUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57087F6F1C613DC000FA3ADC /* KickitSpotMobileUITests.m */; };
+		6E377E1D1C6FE83D0016BDE9 /* Actor regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E377DF71C6FE83D0016BDE9 /* Actor regular.ttf */; };
+		6E377E1E1C6FE83D0016BDE9 /* Advent Pro 100.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E377DF81C6FE83D0016BDE9 /* Advent Pro 100.ttf */; };
+		6E377E1F1C6FE83D0016BDE9 /* Advent Pro 200.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E377DF91C6FE83D0016BDE9 /* Advent Pro 200.ttf */; };
+		6E377E201C6FE83D0016BDE9 /* Advent Pro 300.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E377DFA1C6FE83D0016BDE9 /* Advent Pro 300.ttf */; };
+		6E377E211C6FE83D0016BDE9 /* Advent Pro 500.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E377DFB1C6FE83D0016BDE9 /* Advent Pro 500.ttf */; };
+		6E377E221C6FE83D0016BDE9 /* Advent Pro 600.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E377DFC1C6FE83D0016BDE9 /* Advent Pro 600.ttf */; };
+		6E377E231C6FE83D0016BDE9 /* Advent Pro 700.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E377DFD1C6FE83D0016BDE9 /* Advent Pro 700.ttf */; };
+		6E377E241C6FE83D0016BDE9 /* Advent Pro regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E377DFE1C6FE83D0016BDE9 /* Advent Pro regular.ttf */; };
+		6E377E251C6FE83D0016BDE9 /* Open Sans 300.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E377DFF1C6FE83D0016BDE9 /* Open Sans 300.ttf */; };
+		6E377E261C6FE83D0016BDE9 /* Open Sans 300italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E377E001C6FE83D0016BDE9 /* Open Sans 300italic.ttf */; };
+		6E377E271C6FE83D0016BDE9 /* Open Sans 600.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E377E011C6FE83D0016BDE9 /* Open Sans 600.ttf */; };
+		6E377E281C6FE83D0016BDE9 /* Open Sans 600italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E377E021C6FE83D0016BDE9 /* Open Sans 600italic.ttf */; };
+		6E377E291C6FE83D0016BDE9 /* Open Sans 700.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E377E031C6FE83D0016BDE9 /* Open Sans 700.ttf */; };
+		6E377E2A1C6FE83D0016BDE9 /* Open Sans 700italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E377E041C6FE83D0016BDE9 /* Open Sans 700italic.ttf */; };
+		6E377E2B1C6FE83D0016BDE9 /* Open Sans 800.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E377E051C6FE83D0016BDE9 /* Open Sans 800.ttf */; };
+		6E377E2C1C6FE83D0016BDE9 /* Open Sans 800italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E377E061C6FE83D0016BDE9 /* Open Sans 800italic.ttf */; };
+		6E377E2D1C6FE83D0016BDE9 /* Open Sans italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E377E071C6FE83D0016BDE9 /* Open Sans italic.ttf */; };
+		6E377E2E1C6FE83D0016BDE9 /* Open Sans regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E377E081C6FE83D0016BDE9 /* Open Sans regular.ttf */; };
+		6E377E2F1C6FE83D0016BDE9 /* Roboto 100.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E377E091C6FE83D0016BDE9 /* Roboto 100.ttf */; };
+		6E377E301C6FE83D0016BDE9 /* Roboto 100italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E377E0A1C6FE83D0016BDE9 /* Roboto 100italic.ttf */; };
+		6E377E311C6FE83D0016BDE9 /* Roboto 300.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E377E0B1C6FE83D0016BDE9 /* Roboto 300.ttf */; };
+		6E377E321C6FE83D0016BDE9 /* Roboto 300italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E377E0C1C6FE83D0016BDE9 /* Roboto 300italic.ttf */; };
+		6E377E331C6FE83D0016BDE9 /* Roboto 500.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E377E0D1C6FE83D0016BDE9 /* Roboto 500.ttf */; };
+		6E377E341C6FE83D0016BDE9 /* Roboto 500italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E377E0E1C6FE83D0016BDE9 /* Roboto 500italic.ttf */; };
+		6E377E351C6FE83D0016BDE9 /* Roboto 700.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E377E0F1C6FE83D0016BDE9 /* Roboto 700.ttf */; };
+		6E377E361C6FE83D0016BDE9 /* Roboto 700italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E377E101C6FE83D0016BDE9 /* Roboto 700italic.ttf */; };
+		6E377E371C6FE83D0016BDE9 /* Roboto 900.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E377E111C6FE83D0016BDE9 /* Roboto 900.ttf */; };
+		6E377E381C6FE83D0016BDE9 /* Roboto 900italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E377E121C6FE83D0016BDE9 /* Roboto 900italic.ttf */; };
+		6E377E391C6FE83D0016BDE9 /* Roboto italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E377E131C6FE83D0016BDE9 /* Roboto italic.ttf */; };
+		6E377E3A1C6FE83D0016BDE9 /* Roboto regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E377E141C6FE83D0016BDE9 /* Roboto regular.ttf */; };
+		6E377E3B1C6FE83D0016BDE9 /* Typo_Round_Bold_Demo.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6E377E151C6FE83D0016BDE9 /* Typo_Round_Bold_Demo.otf */; };
+		6E377E3C1C6FE83D0016BDE9 /* Typo_Round_Bold_Italic_Demo.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6E377E161C6FE83D0016BDE9 /* Typo_Round_Bold_Italic_Demo.otf */; };
+		6E377E3D1C6FE83D0016BDE9 /* Typo_Round_Italic_Demo.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6E377E171C6FE83D0016BDE9 /* Typo_Round_Italic_Demo.otf */; };
+		6E377E3E1C6FE83D0016BDE9 /* Typo_Round_Light_Demo.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6E377E181C6FE83D0016BDE9 /* Typo_Round_Light_Demo.otf */; };
+		6E377E3F1C6FE83D0016BDE9 /* Typo_Round_Light_Italic_Demo.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6E377E191C6FE83D0016BDE9 /* Typo_Round_Light_Italic_Demo.otf */; };
+		6E377E401C6FE83D0016BDE9 /* Typo_Round_Regular_Demo.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6E377E1A1C6FE83D0016BDE9 /* Typo_Round_Regular_Demo.otf */; };
+		6E377E411C6FE83D0016BDE9 /* Typo_Round_Thin_Demo.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6E377E1B1C6FE83D0016BDE9 /* Typo_Round_Thin_Demo.otf */; };
+		6E377E421C6FE83D0016BDE9 /* Typo_Round_Thin_Italic Demo.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6E377E1C1C6FE83D0016BDE9 /* Typo_Round_Thin_Italic Demo.otf */; };
+		6E377E451C6FE8FF0016BDE9 /* HelperFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E377E441C6FE8FF0016BDE9 /* HelperFunctions.m */; };
+		6E377E651C6FEA8C0016BDE9 /* kColorConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E377E641C6FEA8C0016BDE9 /* kColorConstants.m */; };
+		6E377EA81C6FEE110016BDE9 /* AIFlatSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E377E711C6FEE110016BDE9 /* AIFlatSwitch.swift */; };
+		6E377EA91C6FEE110016BDE9 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6E377E721C6FEE110016BDE9 /* Info.plist */; };
+		6E377EAC1C6FEE110016BDE9 /* AwesomeMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E377E7B1C6FEE110016BDE9 /* AwesomeMenu.m */; };
+		6E377EAD1C6FEE110016BDE9 /* AwesomeMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E377E7D1C6FEE110016BDE9 /* AwesomeMenuItem.m */; };
+		6E377EAE1C6FEE110016BDE9 /* CKLinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E377E801C6FEE110016BDE9 /* CKLinkedList.m */; };
+		6E377EAF1C6FEE110016BDE9 /* DOFavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E377E821C6FEE110016BDE9 /* DOFavoriteButton.swift */; };
+		6E377EB11C6FEE110016BDE9 /* GCPlaceholderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E377E881C6FEE110016BDE9 /* GCPlaceholderTextView.m */; };
+		6E377EB21C6FEE110016BDE9 /* JFMinimalNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E377E8B1C6FEE110016BDE9 /* JFMinimalNotification.m */; };
+		6E377EB31C6FEE110016BDE9 /* JFMinimalNotificationArt.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E377E8D1C6FEE110016BDE9 /* JFMinimalNotificationArt.m */; };
+		6E377EB41C6FEE110016BDE9 /* NSInvocation+Constructors.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E377E8F1C6FEE110016BDE9 /* NSInvocation+Constructors.m */; };
+		6E377EB51C6FEE110016BDE9 /* UIColor+JFMinimalNotificationColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E377E911C6FEE110016BDE9 /* UIColor+JFMinimalNotificationColors.m */; };
+		6E377EB61C6FEE110016BDE9 /* UIView+Round.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E377E931C6FEE110016BDE9 /* UIView+Round.m */; };
+		6E377EB71C6FEE110016BDE9 /* LTInfiniteScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E377E961C6FEE110016BDE9 /* LTInfiniteScrollView.m */; };
+		6E377EB81C6FEE110016BDE9 /* MSCellAccessory.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E377E991C6FEE110016BDE9 /* MSCellAccessory.m */; };
+		6E377EB91C6FEE110016BDE9 /* UIView+AccessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E377E9B1C6FEE110016BDE9 /* UIView+AccessViewController.m */; };
+		6E377EBA1C6FEE110016BDE9 /* NSDate+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E377E9E1C6FEE110016BDE9 /* NSDate+Utilities.m */; };
+		6E377EBB1C6FEE110016BDE9 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E377EA11C6FEE110016BDE9 /* Reachability.m */; };
+		6E377EBC1C6FEE110016BDE9 /* SLExpandableTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E377EA41C6FEE110016BDE9 /* SLExpandableTableView.m */; };
+		6E377EBD1C6FEE110016BDE9 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E377EA71C6FEE110016BDE9 /* UIImage+ImageEffects.m */; };
 		6EBEF1721C68035D00D2EF22 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EBEF1711C68035D00D2EF22 /* AppDelegate.m */; };
 		6EBEF1751C68036C00D2EF22 /* SignInView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EBEF1741C68036C00D2EF22 /* SignInView.m */; };
 		6EBEF17A1C68037A00D2EF22 /* MainPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EBEF1771C68037A00D2EF22 /* MainPageViewController.m */; };
@@ -67,6 +126,84 @@
 		57087F711C613DC000FA3ADC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		602BF4178C62AA0AEDA00EB1 /* Pods-KickitSpot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KickitSpot.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KickitSpot/Pods-KickitSpot.debug.xcconfig"; sourceTree = "<group>"; };
 		6C1E430C9D9D56069D144663 /* Pods-KickitSpotMobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KickitSpotMobile.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KickitSpotMobile/Pods-KickitSpotMobile.debug.xcconfig"; sourceTree = "<group>"; };
+		6E377DF71C6FE83D0016BDE9 /* Actor regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Actor regular.ttf"; path = "fonts/Actor regular.ttf"; sourceTree = "<group>"; };
+		6E377DF81C6FE83D0016BDE9 /* Advent Pro 100.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Advent Pro 100.ttf"; path = "fonts/Advent Pro 100.ttf"; sourceTree = "<group>"; };
+		6E377DF91C6FE83D0016BDE9 /* Advent Pro 200.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Advent Pro 200.ttf"; path = "fonts/Advent Pro 200.ttf"; sourceTree = "<group>"; };
+		6E377DFA1C6FE83D0016BDE9 /* Advent Pro 300.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Advent Pro 300.ttf"; path = "fonts/Advent Pro 300.ttf"; sourceTree = "<group>"; };
+		6E377DFB1C6FE83D0016BDE9 /* Advent Pro 500.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Advent Pro 500.ttf"; path = "fonts/Advent Pro 500.ttf"; sourceTree = "<group>"; };
+		6E377DFC1C6FE83D0016BDE9 /* Advent Pro 600.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Advent Pro 600.ttf"; path = "fonts/Advent Pro 600.ttf"; sourceTree = "<group>"; };
+		6E377DFD1C6FE83D0016BDE9 /* Advent Pro 700.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Advent Pro 700.ttf"; path = "fonts/Advent Pro 700.ttf"; sourceTree = "<group>"; };
+		6E377DFE1C6FE83D0016BDE9 /* Advent Pro regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Advent Pro regular.ttf"; path = "fonts/Advent Pro regular.ttf"; sourceTree = "<group>"; };
+		6E377DFF1C6FE83D0016BDE9 /* Open Sans 300.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Open Sans 300.ttf"; path = "fonts/Open Sans 300.ttf"; sourceTree = "<group>"; };
+		6E377E001C6FE83D0016BDE9 /* Open Sans 300italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Open Sans 300italic.ttf"; path = "fonts/Open Sans 300italic.ttf"; sourceTree = "<group>"; };
+		6E377E011C6FE83D0016BDE9 /* Open Sans 600.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Open Sans 600.ttf"; path = "fonts/Open Sans 600.ttf"; sourceTree = "<group>"; };
+		6E377E021C6FE83D0016BDE9 /* Open Sans 600italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Open Sans 600italic.ttf"; path = "fonts/Open Sans 600italic.ttf"; sourceTree = "<group>"; };
+		6E377E031C6FE83D0016BDE9 /* Open Sans 700.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Open Sans 700.ttf"; path = "fonts/Open Sans 700.ttf"; sourceTree = "<group>"; };
+		6E377E041C6FE83D0016BDE9 /* Open Sans 700italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Open Sans 700italic.ttf"; path = "fonts/Open Sans 700italic.ttf"; sourceTree = "<group>"; };
+		6E377E051C6FE83D0016BDE9 /* Open Sans 800.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Open Sans 800.ttf"; path = "fonts/Open Sans 800.ttf"; sourceTree = "<group>"; };
+		6E377E061C6FE83D0016BDE9 /* Open Sans 800italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Open Sans 800italic.ttf"; path = "fonts/Open Sans 800italic.ttf"; sourceTree = "<group>"; };
+		6E377E071C6FE83D0016BDE9 /* Open Sans italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Open Sans italic.ttf"; path = "fonts/Open Sans italic.ttf"; sourceTree = "<group>"; };
+		6E377E081C6FE83D0016BDE9 /* Open Sans regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Open Sans regular.ttf"; path = "fonts/Open Sans regular.ttf"; sourceTree = "<group>"; };
+		6E377E091C6FE83D0016BDE9 /* Roboto 100.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto 100.ttf"; path = "fonts/Roboto 100.ttf"; sourceTree = "<group>"; };
+		6E377E0A1C6FE83D0016BDE9 /* Roboto 100italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto 100italic.ttf"; path = "fonts/Roboto 100italic.ttf"; sourceTree = "<group>"; };
+		6E377E0B1C6FE83D0016BDE9 /* Roboto 300.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto 300.ttf"; path = "fonts/Roboto 300.ttf"; sourceTree = "<group>"; };
+		6E377E0C1C6FE83D0016BDE9 /* Roboto 300italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto 300italic.ttf"; path = "fonts/Roboto 300italic.ttf"; sourceTree = "<group>"; };
+		6E377E0D1C6FE83D0016BDE9 /* Roboto 500.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto 500.ttf"; path = "fonts/Roboto 500.ttf"; sourceTree = "<group>"; };
+		6E377E0E1C6FE83D0016BDE9 /* Roboto 500italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto 500italic.ttf"; path = "fonts/Roboto 500italic.ttf"; sourceTree = "<group>"; };
+		6E377E0F1C6FE83D0016BDE9 /* Roboto 700.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto 700.ttf"; path = "fonts/Roboto 700.ttf"; sourceTree = "<group>"; };
+		6E377E101C6FE83D0016BDE9 /* Roboto 700italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto 700italic.ttf"; path = "fonts/Roboto 700italic.ttf"; sourceTree = "<group>"; };
+		6E377E111C6FE83D0016BDE9 /* Roboto 900.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto 900.ttf"; path = "fonts/Roboto 900.ttf"; sourceTree = "<group>"; };
+		6E377E121C6FE83D0016BDE9 /* Roboto 900italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto 900italic.ttf"; path = "fonts/Roboto 900italic.ttf"; sourceTree = "<group>"; };
+		6E377E131C6FE83D0016BDE9 /* Roboto italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto italic.ttf"; path = "fonts/Roboto italic.ttf"; sourceTree = "<group>"; };
+		6E377E141C6FE83D0016BDE9 /* Roboto regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto regular.ttf"; path = "fonts/Roboto regular.ttf"; sourceTree = "<group>"; };
+		6E377E151C6FE83D0016BDE9 /* Typo_Round_Bold_Demo.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Typo_Round_Bold_Demo.otf; path = fonts/Typo_Round_Bold_Demo.otf; sourceTree = "<group>"; };
+		6E377E161C6FE83D0016BDE9 /* Typo_Round_Bold_Italic_Demo.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Typo_Round_Bold_Italic_Demo.otf; path = fonts/Typo_Round_Bold_Italic_Demo.otf; sourceTree = "<group>"; };
+		6E377E171C6FE83D0016BDE9 /* Typo_Round_Italic_Demo.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Typo_Round_Italic_Demo.otf; path = fonts/Typo_Round_Italic_Demo.otf; sourceTree = "<group>"; };
+		6E377E181C6FE83D0016BDE9 /* Typo_Round_Light_Demo.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Typo_Round_Light_Demo.otf; path = fonts/Typo_Round_Light_Demo.otf; sourceTree = "<group>"; };
+		6E377E191C6FE83D0016BDE9 /* Typo_Round_Light_Italic_Demo.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Typo_Round_Light_Italic_Demo.otf; path = fonts/Typo_Round_Light_Italic_Demo.otf; sourceTree = "<group>"; };
+		6E377E1A1C6FE83D0016BDE9 /* Typo_Round_Regular_Demo.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Typo_Round_Regular_Demo.otf; path = fonts/Typo_Round_Regular_Demo.otf; sourceTree = "<group>"; };
+		6E377E1B1C6FE83D0016BDE9 /* Typo_Round_Thin_Demo.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Typo_Round_Thin_Demo.otf; path = fonts/Typo_Round_Thin_Demo.otf; sourceTree = "<group>"; };
+		6E377E1C1C6FE83D0016BDE9 /* Typo_Round_Thin_Italic Demo.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Typo_Round_Thin_Italic Demo.otf"; path = "fonts/Typo_Round_Thin_Italic Demo.otf"; sourceTree = "<group>"; };
+		6E377E431C6FE8F90016BDE9 /* HelperFunctions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HelperFunctions.h; path = HelperFiles/HelperFunctions.h; sourceTree = "<group>"; };
+		6E377E441C6FE8FF0016BDE9 /* HelperFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HelperFunctions.m; path = HelperFiles/HelperFunctions.m; sourceTree = "<group>"; };
+		6E377E631C6FEA8C0016BDE9 /* kColorConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = kColorConstants.h; path = HelperFiles/kColorConstants.h; sourceTree = "<group>"; };
+		6E377E641C6FEA8C0016BDE9 /* kColorConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = kColorConstants.m; path = HelperFiles/kColorConstants.m; sourceTree = "<group>"; };
+		6E377E701C6FEE110016BDE9 /* AIFlatSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIFlatSwitch.h; sourceTree = "<group>"; };
+		6E377E711C6FEE110016BDE9 /* AIFlatSwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AIFlatSwitch.swift; sourceTree = "<group>"; };
+		6E377E721C6FEE110016BDE9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E377E7A1C6FEE110016BDE9 /* AwesomeMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AwesomeMenu.h; sourceTree = "<group>"; };
+		6E377E7B1C6FEE110016BDE9 /* AwesomeMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AwesomeMenu.m; sourceTree = "<group>"; };
+		6E377E7C1C6FEE110016BDE9 /* AwesomeMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AwesomeMenuItem.h; sourceTree = "<group>"; };
+		6E377E7D1C6FEE110016BDE9 /* AwesomeMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AwesomeMenuItem.m; sourceTree = "<group>"; };
+		6E377E7F1C6FEE110016BDE9 /* CKLinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKLinkedList.h; sourceTree = "<group>"; };
+		6E377E801C6FEE110016BDE9 /* CKLinkedList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKLinkedList.m; sourceTree = "<group>"; };
+		6E377E821C6FEE110016BDE9 /* DOFavoriteButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DOFavoriteButton.swift; sourceTree = "<group>"; };
+		6E377E871C6FEE110016BDE9 /* GCPlaceholderTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCPlaceholderTextView.h; sourceTree = "<group>"; };
+		6E377E881C6FEE110016BDE9 /* GCPlaceholderTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCPlaceholderTextView.m; sourceTree = "<group>"; };
+		6E377E8A1C6FEE110016BDE9 /* JFMinimalNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFMinimalNotification.h; sourceTree = "<group>"; };
+		6E377E8B1C6FEE110016BDE9 /* JFMinimalNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFMinimalNotification.m; sourceTree = "<group>"; };
+		6E377E8C1C6FEE110016BDE9 /* JFMinimalNotificationArt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFMinimalNotificationArt.h; sourceTree = "<group>"; };
+		6E377E8D1C6FEE110016BDE9 /* JFMinimalNotificationArt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFMinimalNotificationArt.m; sourceTree = "<group>"; };
+		6E377E8E1C6FEE110016BDE9 /* NSInvocation+Constructors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSInvocation+Constructors.h"; sourceTree = "<group>"; };
+		6E377E8F1C6FEE110016BDE9 /* NSInvocation+Constructors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSInvocation+Constructors.m"; sourceTree = "<group>"; };
+		6E377E901C6FEE110016BDE9 /* UIColor+JFMinimalNotificationColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+JFMinimalNotificationColors.h"; sourceTree = "<group>"; };
+		6E377E911C6FEE110016BDE9 /* UIColor+JFMinimalNotificationColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+JFMinimalNotificationColors.m"; sourceTree = "<group>"; };
+		6E377E921C6FEE110016BDE9 /* UIView+Round.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Round.h"; sourceTree = "<group>"; };
+		6E377E931C6FEE110016BDE9 /* UIView+Round.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Round.m"; sourceTree = "<group>"; };
+		6E377E951C6FEE110016BDE9 /* LTInfiniteScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTInfiniteScrollView.h; sourceTree = "<group>"; };
+		6E377E961C6FEE110016BDE9 /* LTInfiniteScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTInfiniteScrollView.m; sourceTree = "<group>"; };
+		6E377E981C6FEE110016BDE9 /* MSCellAccessory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCellAccessory.h; sourceTree = "<group>"; };
+		6E377E991C6FEE110016BDE9 /* MSCellAccessory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSCellAccessory.m; sourceTree = "<group>"; };
+		6E377E9A1C6FEE110016BDE9 /* UIView+AccessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AccessViewController.h"; sourceTree = "<group>"; };
+		6E377E9B1C6FEE110016BDE9 /* UIView+AccessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AccessViewController.m"; sourceTree = "<group>"; };
+		6E377E9D1C6FEE110016BDE9 /* NSDate+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Utilities.h"; sourceTree = "<group>"; };
+		6E377E9E1C6FEE110016BDE9 /* NSDate+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Utilities.m"; sourceTree = "<group>"; };
+		6E377EA01C6FEE110016BDE9 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		6E377EA11C6FEE110016BDE9 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		6E377EA31C6FEE110016BDE9 /* SLExpandableTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLExpandableTableView.h; sourceTree = "<group>"; };
+		6E377EA41C6FEE110016BDE9 /* SLExpandableTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLExpandableTableView.m; sourceTree = "<group>"; };
+		6E377EA61C6FEE110016BDE9 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		6E377EA71C6FEE110016BDE9 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
 		6EBEF1701C68035D00D2EF22 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = AppDelegate/AppDelegate.h; sourceTree = "<group>"; };
 		6EBEF1711C68035D00D2EF22 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = AppDelegate/AppDelegate.m; sourceTree = "<group>"; };
 		6EBEF1731C68036C00D2EF22 /* SignInView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SignInView.h; path = Subviews/SignInView.h; sourceTree = "<group>"; };
@@ -75,7 +212,7 @@
 		6EBEF1771C68037A00D2EF22 /* MainPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainPageViewController.m; path = ViewControllers/MainPageViewController.m; sourceTree = "<group>"; };
 		6EBEF17C1C68039000D2EF22 /* BackendFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BackendFunctions.h; path = HelperFiles/BackendFunctions.h; sourceTree = "<group>"; };
 		6EBEF17D1C68039000D2EF22 /* BackendFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BackendFunctions.m; path = HelperFiles/BackendFunctions.m; sourceTree = "<group>"; };
-		6EBEF17F1C6803AE00D2EF22 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = HelperFiles/Constants.h; sourceTree = "<group>"; };
+		6EBEF17F1C6803AE00D2EF22 /* kConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = kConstants.h; path = HelperFiles/kConstants.h; sourceTree = "<group>"; };
 		6EBEF1801C680B5100D2EF22 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootViewController.h; path = RootViewController/RootViewController.h; sourceTree = "<group>"; };
 		6EBEF1811C680B5100D2EF22 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RootViewController.m; path = RootViewController/RootViewController.m; sourceTree = "<group>"; };
 		6EBEF1851C680F8900D2EF22 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
@@ -158,6 +295,7 @@
 			children = (
 				6EBEF1841C680E6B00D2EF22 /* Storyboard */,
 				6EBEF16A1C6802E300D2EF22 /* AppDelegate */,
+				6E377E661C6FEA910016BDE9 /* Constants */,
 				6EBEF16C1C6802F200D2EF22 /* Subviews */,
 				6EBEF16B1C6802E800D2EF22 /* ViewControllers */,
 				57E7D71D1C61A7E8000641D5 /* Helper Files */,
@@ -171,6 +309,8 @@
 		57087F4A1C613DC000FA3ADC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6E377E461C6FE9A50016BDE9 /* opensource */,
+				6E377DF61C6FE2F90016BDE9 /* fonts */,
 				57087F4B1C613DC000FA3ADC /* main.m */,
 			);
 			name = "Supporting Files";
@@ -197,7 +337,6 @@
 		57E7D71D1C61A7E8000641D5 /* Helper Files */ = {
 			isa = PBXGroup;
 			children = (
-				6EBEF17F1C6803AE00D2EF22 /* Constants.h */,
 				6EBEF17C1C68039000D2EF22 /* BackendFunctions.h */,
 				6EBEF17D1C68039000D2EF22 /* BackendFunctions.m */,
 			);
@@ -213,6 +352,214 @@
 				42D1B3F61542516C6145DE60 /* Pods-KickitSpot.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		6E377DF61C6FE2F90016BDE9 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				6E377DF71C6FE83D0016BDE9 /* Actor regular.ttf */,
+				6E377DF81C6FE83D0016BDE9 /* Advent Pro 100.ttf */,
+				6E377DF91C6FE83D0016BDE9 /* Advent Pro 200.ttf */,
+				6E377DFA1C6FE83D0016BDE9 /* Advent Pro 300.ttf */,
+				6E377DFB1C6FE83D0016BDE9 /* Advent Pro 500.ttf */,
+				6E377DFC1C6FE83D0016BDE9 /* Advent Pro 600.ttf */,
+				6E377DFD1C6FE83D0016BDE9 /* Advent Pro 700.ttf */,
+				6E377DFE1C6FE83D0016BDE9 /* Advent Pro regular.ttf */,
+				6E377DFF1C6FE83D0016BDE9 /* Open Sans 300.ttf */,
+				6E377E001C6FE83D0016BDE9 /* Open Sans 300italic.ttf */,
+				6E377E011C6FE83D0016BDE9 /* Open Sans 600.ttf */,
+				6E377E021C6FE83D0016BDE9 /* Open Sans 600italic.ttf */,
+				6E377E031C6FE83D0016BDE9 /* Open Sans 700.ttf */,
+				6E377E041C6FE83D0016BDE9 /* Open Sans 700italic.ttf */,
+				6E377E051C6FE83D0016BDE9 /* Open Sans 800.ttf */,
+				6E377E061C6FE83D0016BDE9 /* Open Sans 800italic.ttf */,
+				6E377E071C6FE83D0016BDE9 /* Open Sans italic.ttf */,
+				6E377E081C6FE83D0016BDE9 /* Open Sans regular.ttf */,
+				6E377E091C6FE83D0016BDE9 /* Roboto 100.ttf */,
+				6E377E0A1C6FE83D0016BDE9 /* Roboto 100italic.ttf */,
+				6E377E0B1C6FE83D0016BDE9 /* Roboto 300.ttf */,
+				6E377E0C1C6FE83D0016BDE9 /* Roboto 300italic.ttf */,
+				6E377E0D1C6FE83D0016BDE9 /* Roboto 500.ttf */,
+				6E377E0E1C6FE83D0016BDE9 /* Roboto 500italic.ttf */,
+				6E377E0F1C6FE83D0016BDE9 /* Roboto 700.ttf */,
+				6E377E101C6FE83D0016BDE9 /* Roboto 700italic.ttf */,
+				6E377E111C6FE83D0016BDE9 /* Roboto 900.ttf */,
+				6E377E121C6FE83D0016BDE9 /* Roboto 900italic.ttf */,
+				6E377E131C6FE83D0016BDE9 /* Roboto italic.ttf */,
+				6E377E141C6FE83D0016BDE9 /* Roboto regular.ttf */,
+				6E377E151C6FE83D0016BDE9 /* Typo_Round_Bold_Demo.otf */,
+				6E377E161C6FE83D0016BDE9 /* Typo_Round_Bold_Italic_Demo.otf */,
+				6E377E171C6FE83D0016BDE9 /* Typo_Round_Italic_Demo.otf */,
+				6E377E181C6FE83D0016BDE9 /* Typo_Round_Light_Demo.otf */,
+				6E377E191C6FE83D0016BDE9 /* Typo_Round_Light_Italic_Demo.otf */,
+				6E377E1A1C6FE83D0016BDE9 /* Typo_Round_Regular_Demo.otf */,
+				6E377E1B1C6FE83D0016BDE9 /* Typo_Round_Thin_Demo.otf */,
+				6E377E1C1C6FE83D0016BDE9 /* Typo_Round_Thin_Italic Demo.otf */,
+			);
+			name = fonts;
+			sourceTree = "<group>";
+		};
+		6E377E461C6FE9A50016BDE9 /* opensource */ = {
+			isa = PBXGroup;
+			children = (
+				6E377E6F1C6FEE110016BDE9 /* AIFlatSwitch */,
+				6E377E791C6FEE110016BDE9 /* AwesomeMenu */,
+				6E377E7E1C6FEE110016BDE9 /* CKLinkedList */,
+				6E377E811C6FEE110016BDE9 /* DOFavoriteButton */,
+				6E377E861C6FEE110016BDE9 /* GCPlaceholderTextView */,
+				6E377E891C6FEE110016BDE9 /* JFMinimalNotification */,
+				6E377E941C6FEE110016BDE9 /* LTInfiniteScrollView */,
+				6E377E971C6FEE110016BDE9 /* MSCellAccessory */,
+				6E377E9C1C6FEE110016BDE9 /* NSDate+Utilities */,
+				6E377E9F1C6FEE110016BDE9 /* Reachability */,
+				6E377EA21C6FEE110016BDE9 /* SLExpandableTableView */,
+				6E377EA51C6FEE110016BDE9 /* UIImage+ImageEffects */,
+			);
+			name = opensource;
+			sourceTree = "<group>";
+		};
+		6E377E661C6FEA910016BDE9 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				6E377E631C6FEA8C0016BDE9 /* kColorConstants.h */,
+				6E377E641C6FEA8C0016BDE9 /* kColorConstants.m */,
+				6E377E431C6FE8F90016BDE9 /* HelperFunctions.h */,
+				6E377E441C6FE8FF0016BDE9 /* HelperFunctions.m */,
+				6EBEF17F1C6803AE00D2EF22 /* kConstants.h */,
+			);
+			name = Constants;
+			sourceTree = "<group>";
+		};
+		6E377E6F1C6FEE110016BDE9 /* AIFlatSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				6E377E701C6FEE110016BDE9 /* AIFlatSwitch.h */,
+				6E377E711C6FEE110016BDE9 /* AIFlatSwitch.swift */,
+				6E377E721C6FEE110016BDE9 /* Info.plist */,
+			);
+			name = AIFlatSwitch;
+			path = OpenSource/AIFlatSwitch;
+			sourceTree = "<group>";
+		};
+		6E377E791C6FEE110016BDE9 /* AwesomeMenu */ = {
+			isa = PBXGroup;
+			children = (
+				6E377E7A1C6FEE110016BDE9 /* AwesomeMenu.h */,
+				6E377E7B1C6FEE110016BDE9 /* AwesomeMenu.m */,
+				6E377E7C1C6FEE110016BDE9 /* AwesomeMenuItem.h */,
+				6E377E7D1C6FEE110016BDE9 /* AwesomeMenuItem.m */,
+			);
+			name = AwesomeMenu;
+			path = OpenSource/AwesomeMenu;
+			sourceTree = "<group>";
+		};
+		6E377E7E1C6FEE110016BDE9 /* CKLinkedList */ = {
+			isa = PBXGroup;
+			children = (
+				6E377E7F1C6FEE110016BDE9 /* CKLinkedList.h */,
+				6E377E801C6FEE110016BDE9 /* CKLinkedList.m */,
+			);
+			name = CKLinkedList;
+			path = OpenSource/CKLinkedList;
+			sourceTree = "<group>";
+		};
+		6E377E811C6FEE110016BDE9 /* DOFavoriteButton */ = {
+			isa = PBXGroup;
+			children = (
+				6E377E821C6FEE110016BDE9 /* DOFavoriteButton.swift */,
+			);
+			name = DOFavoriteButton;
+			path = OpenSource/DOFavoriteButton;
+			sourceTree = "<group>";
+		};
+		6E377E861C6FEE110016BDE9 /* GCPlaceholderTextView */ = {
+			isa = PBXGroup;
+			children = (
+				6E377E871C6FEE110016BDE9 /* GCPlaceholderTextView.h */,
+				6E377E881C6FEE110016BDE9 /* GCPlaceholderTextView.m */,
+			);
+			name = GCPlaceholderTextView;
+			path = OpenSource/GCPlaceholderTextView;
+			sourceTree = "<group>";
+		};
+		6E377E891C6FEE110016BDE9 /* JFMinimalNotification */ = {
+			isa = PBXGroup;
+			children = (
+				6E377E8A1C6FEE110016BDE9 /* JFMinimalNotification.h */,
+				6E377E8B1C6FEE110016BDE9 /* JFMinimalNotification.m */,
+				6E377E8C1C6FEE110016BDE9 /* JFMinimalNotificationArt.h */,
+				6E377E8D1C6FEE110016BDE9 /* JFMinimalNotificationArt.m */,
+				6E377E8E1C6FEE110016BDE9 /* NSInvocation+Constructors.h */,
+				6E377E8F1C6FEE110016BDE9 /* NSInvocation+Constructors.m */,
+				6E377E901C6FEE110016BDE9 /* UIColor+JFMinimalNotificationColors.h */,
+				6E377E911C6FEE110016BDE9 /* UIColor+JFMinimalNotificationColors.m */,
+				6E377E921C6FEE110016BDE9 /* UIView+Round.h */,
+				6E377E931C6FEE110016BDE9 /* UIView+Round.m */,
+			);
+			name = JFMinimalNotification;
+			path = OpenSource/JFMinimalNotification;
+			sourceTree = "<group>";
+		};
+		6E377E941C6FEE110016BDE9 /* LTInfiniteScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				6E377E951C6FEE110016BDE9 /* LTInfiniteScrollView.h */,
+				6E377E961C6FEE110016BDE9 /* LTInfiniteScrollView.m */,
+			);
+			name = LTInfiniteScrollView;
+			path = OpenSource/LTInfiniteScrollView;
+			sourceTree = "<group>";
+		};
+		6E377E971C6FEE110016BDE9 /* MSCellAccessory */ = {
+			isa = PBXGroup;
+			children = (
+				6E377E981C6FEE110016BDE9 /* MSCellAccessory.h */,
+				6E377E991C6FEE110016BDE9 /* MSCellAccessory.m */,
+				6E377E9A1C6FEE110016BDE9 /* UIView+AccessViewController.h */,
+				6E377E9B1C6FEE110016BDE9 /* UIView+AccessViewController.m */,
+			);
+			name = MSCellAccessory;
+			path = OpenSource/MSCellAccessory;
+			sourceTree = "<group>";
+		};
+		6E377E9C1C6FEE110016BDE9 /* NSDate+Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				6E377E9D1C6FEE110016BDE9 /* NSDate+Utilities.h */,
+				6E377E9E1C6FEE110016BDE9 /* NSDate+Utilities.m */,
+			);
+			name = "NSDate+Utilities";
+			path = "OpenSource/NSDate+Utilities";
+			sourceTree = "<group>";
+		};
+		6E377E9F1C6FEE110016BDE9 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				6E377EA01C6FEE110016BDE9 /* Reachability.h */,
+				6E377EA11C6FEE110016BDE9 /* Reachability.m */,
+			);
+			name = Reachability;
+			path = OpenSource/Reachability;
+			sourceTree = "<group>";
+		};
+		6E377EA21C6FEE110016BDE9 /* SLExpandableTableView */ = {
+			isa = PBXGroup;
+			children = (
+				6E377EA31C6FEE110016BDE9 /* SLExpandableTableView.h */,
+				6E377EA41C6FEE110016BDE9 /* SLExpandableTableView.m */,
+			);
+			name = SLExpandableTableView;
+			path = OpenSource/SLExpandableTableView;
+			sourceTree = "<group>";
+		};
+		6E377EA51C6FEE110016BDE9 /* UIImage+ImageEffects */ = {
+			isa = PBXGroup;
+			children = (
+				6E377EA61C6FEE110016BDE9 /* UIImage+ImageEffects.h */,
+				6E377EA71C6FEE110016BDE9 /* UIImage+ImageEffects.m */,
+			);
+			name = "UIImage+ImageEffects";
+			path = "OpenSource/UIImage+ImageEffects";
 			sourceTree = "<group>";
 		};
 		6EBEF16A1C6802E300D2EF22 /* AppDelegate */ = {
@@ -407,9 +754,48 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E377E331C6FE83D0016BDE9 /* Roboto 500.ttf in Resources */,
+				6E377E1D1C6FE83D0016BDE9 /* Actor regular.ttf in Resources */,
+				6E377E351C6FE83D0016BDE9 /* Roboto 700.ttf in Resources */,
+				6E377E241C6FE83D0016BDE9 /* Advent Pro regular.ttf in Resources */,
 				57087F5A1C613DC000FA3ADC /* LaunchScreen.storyboard in Resources */,
+				6E377E251C6FE83D0016BDE9 /* Open Sans 300.ttf in Resources */,
+				6E377E221C6FE83D0016BDE9 /* Advent Pro 600.ttf in Resources */,
+				6E377E421C6FE83D0016BDE9 /* Typo_Round_Thin_Italic Demo.otf in Resources */,
+				6E377E201C6FE83D0016BDE9 /* Advent Pro 300.ttf in Resources */,
+				6E377E3B1C6FE83D0016BDE9 /* Typo_Round_Bold_Demo.otf in Resources */,
+				6E377E3C1C6FE83D0016BDE9 /* Typo_Round_Bold_Italic_Demo.otf in Resources */,
+				6E377E1E1C6FE83D0016BDE9 /* Advent Pro 100.ttf in Resources */,
+				6E377E1F1C6FE83D0016BDE9 /* Advent Pro 200.ttf in Resources */,
+				6E377E371C6FE83D0016BDE9 /* Roboto 900.ttf in Resources */,
+				6E377E231C6FE83D0016BDE9 /* Advent Pro 700.ttf in Resources */,
 				57087F571C613DC000FA3ADC /* Assets.xcassets in Resources */,
+				6E377E311C6FE83D0016BDE9 /* Roboto 300.ttf in Resources */,
+				6E377E411C6FE83D0016BDE9 /* Typo_Round_Thin_Demo.otf in Resources */,
+				6E377E301C6FE83D0016BDE9 /* Roboto 100italic.ttf in Resources */,
+				6E377E2F1C6FE83D0016BDE9 /* Roboto 100.ttf in Resources */,
+				6E377EA91C6FEE110016BDE9 /* Info.plist in Resources */,
+				6E377E211C6FE83D0016BDE9 /* Advent Pro 500.ttf in Resources */,
+				6E377E381C6FE83D0016BDE9 /* Roboto 900italic.ttf in Resources */,
+				6E377E321C6FE83D0016BDE9 /* Roboto 300italic.ttf in Resources */,
+				6E377E291C6FE83D0016BDE9 /* Open Sans 700.ttf in Resources */,
+				6E377E2B1C6FE83D0016BDE9 /* Open Sans 800.ttf in Resources */,
+				6E377E401C6FE83D0016BDE9 /* Typo_Round_Regular_Demo.otf in Resources */,
+				6E377E3A1C6FE83D0016BDE9 /* Roboto regular.ttf in Resources */,
+				6E377E2A1C6FE83D0016BDE9 /* Open Sans 700italic.ttf in Resources */,
+				6E377E3D1C6FE83D0016BDE9 /* Typo_Round_Italic_Demo.otf in Resources */,
+				6E377E281C6FE83D0016BDE9 /* Open Sans 600italic.ttf in Resources */,
 				57087F551C613DC000FA3ADC /* Main.storyboard in Resources */,
+				6E377E391C6FE83D0016BDE9 /* Roboto italic.ttf in Resources */,
+				6E377E341C6FE83D0016BDE9 /* Roboto 500italic.ttf in Resources */,
+				6E377E2C1C6FE83D0016BDE9 /* Open Sans 800italic.ttf in Resources */,
+				6E377E361C6FE83D0016BDE9 /* Roboto 700italic.ttf in Resources */,
+				6E377E2D1C6FE83D0016BDE9 /* Open Sans italic.ttf in Resources */,
+				6E377E2E1C6FE83D0016BDE9 /* Open Sans regular.ttf in Resources */,
+				6E377E3E1C6FE83D0016BDE9 /* Typo_Round_Light_Demo.otf in Resources */,
+				6E377E271C6FE83D0016BDE9 /* Open Sans 600.ttf in Resources */,
+				6E377E3F1C6FE83D0016BDE9 /* Typo_Round_Light_Italic_Demo.otf in Resources */,
+				6E377E261C6FE83D0016BDE9 /* Open Sans 300italic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,12 +868,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E377EAF1C6FEE110016BDE9 /* DOFavoriteButton.swift in Sources */,
+				6E377EB71C6FEE110016BDE9 /* LTInfiniteScrollView.m in Sources */,
+				6E377EB61C6FEE110016BDE9 /* UIView+Round.m in Sources */,
 				6EBEF17E1C68039000D2EF22 /* BackendFunctions.m in Sources */,
+				6E377EBA1C6FEE110016BDE9 /* NSDate+Utilities.m in Sources */,
+				6E377EAD1C6FEE110016BDE9 /* AwesomeMenuItem.m in Sources */,
+				6E377EB11C6FEE110016BDE9 /* GCPlaceholderTextView.m in Sources */,
 				6EBEF1821C680B5100D2EF22 /* RootViewController.m in Sources */,
+				6E377EAC1C6FEE110016BDE9 /* AwesomeMenu.m in Sources */,
+				6E377EBB1C6FEE110016BDE9 /* Reachability.m in Sources */,
+				6E377EA81C6FEE110016BDE9 /* AIFlatSwitch.swift in Sources */,
+				6E377EB51C6FEE110016BDE9 /* UIColor+JFMinimalNotificationColors.m in Sources */,
 				6EBEF17A1C68037A00D2EF22 /* MainPageViewController.m in Sources */,
 				6EBEF1A21C6810A600D2EF22 /* KITabBarController.m in Sources */,
+				6E377EB41C6FEE110016BDE9 /* NSInvocation+Constructors.m in Sources */,
+				6E377EB91C6FEE110016BDE9 /* UIView+AccessViewController.m in Sources */,
+				6E377EB81C6FEE110016BDE9 /* MSCellAccessory.m in Sources */,
+				6E377EAE1C6FEE110016BDE9 /* CKLinkedList.m in Sources */,
+				6E377EBC1C6FEE110016BDE9 /* SLExpandableTableView.m in Sources */,
 				6EBEF1751C68036C00D2EF22 /* SignInView.m in Sources */,
+				6E377EB21C6FEE110016BDE9 /* JFMinimalNotification.m in Sources */,
+				6E377E451C6FE8FF0016BDE9 /* HelperFunctions.m in Sources */,
+				6E377E651C6FEA8C0016BDE9 /* kColorConstants.m in Sources */,
+				6E377EBD1C6FEE110016BDE9 /* UIImage+ImageEffects.m in Sources */,
 				57087F4C1C613DC000FA3ADC /* main.m in Sources */,
+				6E377EB31C6FEE110016BDE9 /* JFMinimalNotificationArt.m in Sources */,
 				6EBEF1721C68035D00D2EF22 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

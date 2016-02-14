@@ -5,6 +5,7 @@
 
 target 'KickitSpot' do
 
+pop 'pop', '~> 1.0'
 pod 'ionicons'
 pod 'Parse'
 pod 'STPopup'

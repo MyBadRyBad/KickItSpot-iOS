@@ -29,7 +29,6 @@
 - (void)setupViewAndLaunch
 {
     KITabBarController *tabBarController = [[KITabBarController alloc] init];
-    
 }
 
 - (void)didReceiveMemoryWarning {

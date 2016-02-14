@@ -133,10 +133,10 @@
 }
 
 + (void)saveChatMessageWithText:(NSString *)message
-                       withUser:(PFUser *)user
-                      andSpotId: (PFObject *)spot
+                       withUser:(NSDictionary *)user
+                      andSpotId: (NSDictionary *)spot
 {
-    user = [PFUser user];
+ /*   user = [PFUser user];
     spot = [PFObject objectWithClassName:@"Cypher"];
     PFObject *chatMessage = [PFObject objectWithClassName:@"ChatWidget"];
     
@@ -154,7 +154,7 @@
             NSLog(@"YOU SHALL NOT PASS %@",error.localizedDescription);
         }
         
-    }];
+    }]; */
 }
 
 #pragma
@@ -182,10 +182,10 @@
 }
 
 + (void)saveNewsMessageWithText:(NSString *)message
-                       withUser:(PFUser *)user
-                      andSpotId:(PFObject *)spot
+                       withUser:(NSDictionary *)user
+                      andSpotId:(NSDictionary *)spot
 {
-    user = [PFUser user];
+ /*   user = [PFUser user];
     spot = [PFObject objectWithClassName:@"Cypher"];
     PFObject *newsMessage = [PFObject objectWithClassName:@"NewsWidget"];
     
@@ -201,7 +201,7 @@
         {
             NSLog(@"YOU SHALL NOT PASS %@",error.localizedDescription);
         }
-    }];
+    }]; */
 }
 
 
