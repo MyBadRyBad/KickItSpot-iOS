@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		13C27B11C45D1C5F66731BFA /* libPods-KickitSpotMobile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C34F30B93C64F5933B216930 /* libPods-KickitSpotMobile.a */; };
 		57087F4C1C613DC000FA3ADC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 57087F4B1C613DC000FA3ADC /* main.m */; };
 		57087F551C613DC000FA3ADC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57087F531C613DC000FA3ADC /* Main.storyboard */; };
 		57087F571C613DC000FA3ADC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57087F561C613DC000FA3ADC /* Assets.xcassets */; };
@@ -246,7 +245,6 @@
 				6EBEF18A1C680F9A00D2EF22 /* CoreGraphics.framework in Frameworks */,
 				6EBEF1881C680F9000D2EF22 /* CFNetwork.framework in Frameworks */,
 				6EBEF1861C680F8900D2EF22 /* AudioToolbox.framework in Frameworks */,
-				13C27B11C45D1C5F66731BFA /* libPods-KickitSpotMobile.a in Frameworks */,
 				F02496104BDD4BC726064943 /* libPods-KickitSpot.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
