@@ -45,6 +45,7 @@
 //blue
 +(UIColor *)bluePeterRiver:(float)alpha;
 +(UIColor *)blueBelizeHole:(float)alpha;
++(UIColor *)blueCharizard:(float)alpha;
 
 //darkblue?
 +(UIColor *)blueWetAsphalt:(float)alpha;

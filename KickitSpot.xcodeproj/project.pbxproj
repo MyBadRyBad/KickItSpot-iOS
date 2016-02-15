@@ -72,6 +72,9 @@
 		6E377EBB1C6FEE110016BDE9 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E377EA11C6FEE110016BDE9 /* Reachability.m */; };
 		6E377EBC1C6FEE110016BDE9 /* SLExpandableTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E377EA41C6FEE110016BDE9 /* SLExpandableTableView.m */; };
 		6E377EBD1C6FEE110016BDE9 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E377EA71C6FEE110016BDE9 /* UIImage+ImageEffects.m */; };
+		6E8C96731C715101004615DD /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E8C96721C715101004615DD /* SettingsViewController.m */; };
+		6E8C96761C715131004615DD /* SubscribedSpotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E8C96751C715131004615DD /* SubscribedSpotViewController.m */; };
+		6E8C96791C7151CD004615DD /* KITabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E8C96781C7151CD004615DD /* KITabBarItem.m */; };
 		6EBEF1721C68035D00D2EF22 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EBEF1711C68035D00D2EF22 /* AppDelegate.m */; };
 		6EBEF1751C68036C00D2EF22 /* SignInView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EBEF1741C68036C00D2EF22 /* SignInView.m */; };
 		6EBEF17A1C68037A00D2EF22 /* MainPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EBEF1771C68037A00D2EF22 /* MainPageViewController.m */; };
@@ -88,7 +91,7 @@
 		6EBEF1961C680FCD00D2EF22 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EBEF1951C680FCD00D2EF22 /* libz.tbd */; };
 		6EBEF1981C680FD700D2EF22 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EBEF1971C680FD700D2EF22 /* libsqlite3.tbd */; };
 		6EBEF1A21C6810A600D2EF22 /* KITabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EBEF1A11C6810A600D2EF22 /* KITabBarController.m */; };
-		F02496104BDD4BC726064943 /* libPods-KickitSpot.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A119DDB1E501F37BFCEB8435 /* libPods-KickitSpot.a */; };
+		9AC6F5BAD70C505989279C2C /* libPods-KickitSpot.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4421333BC3BB3C6339CD7BD4 /* libPods-KickitSpot.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -111,6 +114,7 @@
 /* Begin PBXFileReference section */
 		218AAC6CD709B16A533B4E65 /* Pods-KickitSpotMobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KickitSpotMobile.release.xcconfig"; path = "Pods/Target Support Files/Pods-KickitSpotMobile/Pods-KickitSpotMobile.release.xcconfig"; sourceTree = "<group>"; };
 		42D1B3F61542516C6145DE60 /* Pods-KickitSpot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KickitSpot.release.xcconfig"; path = "Pods/Target Support Files/Pods-KickitSpot/Pods-KickitSpot.release.xcconfig"; sourceTree = "<group>"; };
+		4421333BC3BB3C6339CD7BD4 /* libPods-KickitSpot.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KickitSpot.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		57087F471C613DC000FA3ADC /* KickitSpot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KickitSpot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57087F4B1C613DC000FA3ADC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		57087F541C613DC000FA3ADC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -203,6 +207,14 @@
 		6E377EA41C6FEE110016BDE9 /* SLExpandableTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLExpandableTableView.m; sourceTree = "<group>"; };
 		6E377EA61C6FEE110016BDE9 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
 		6E377EA71C6FEE110016BDE9 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		6E8C96711C715101004615DD /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingsViewController.h; path = ViewControllers/SettingsViewController.h; sourceTree = "<group>"; };
+		6E8C96721C715101004615DD /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingsViewController.m; path = ViewControllers/SettingsViewController.m; sourceTree = "<group>"; };
+		6E8C96741C715131004615DD /* SubscribedSpotViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SubscribedSpotViewController.h; path = ViewControllers/SubscribedSpotViewController.h; sourceTree = "<group>"; };
+		6E8C96751C715131004615DD /* SubscribedSpotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SubscribedSpotViewController.m; path = ViewControllers/SubscribedSpotViewController.m; sourceTree = "<group>"; };
+		6E8C96771C7151CD004615DD /* KITabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KITabBarItem.h; path = ViewControllers/KITabBarController/KITabBarItem.h; sourceTree = "<group>"; };
+		6E8C96781C7151CD004615DD /* KITabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KITabBarItem.m; path = ViewControllers/KITabBarController/KITabBarItem.m; sourceTree = "<group>"; };
+		6E8C967A1C715587004615DD /* kAppSettingsConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = kAppSettingsConstants.h; sourceTree = "<group>"; };
+		6E8C967B1C715711004615DD /* kBackendConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = kBackendConstants.h; sourceTree = "<group>"; };
 		6EBEF1701C68035D00D2EF22 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = AppDelegate/AppDelegate.h; sourceTree = "<group>"; };
 		6EBEF1711C68035D00D2EF22 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = AppDelegate/AppDelegate.m; sourceTree = "<group>"; };
 		6EBEF1731C68036C00D2EF22 /* SignInView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SignInView.h; path = Subviews/SignInView.h; sourceTree = "<group>"; };
@@ -226,7 +238,6 @@
 		6EBEF1971C680FD700D2EF22 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		6EBEF1A01C6810A600D2EF22 /* KITabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KITabBarController.h; path = ViewControllers/KITabBarController/KITabBarController.h; sourceTree = "<group>"; };
 		6EBEF1A11C6810A600D2EF22 /* KITabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KITabBarController.m; path = ViewControllers/KITabBarController/KITabBarController.m; sourceTree = "<group>"; };
-		A119DDB1E501F37BFCEB8435 /* libPods-KickitSpot.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KickitSpot.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C34F30B93C64F5933B216930 /* libPods-KickitSpotMobile.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KickitSpotMobile.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -245,7 +256,7 @@
 				6EBEF18A1C680F9A00D2EF22 /* CoreGraphics.framework in Frameworks */,
 				6EBEF1881C680F9000D2EF22 /* CFNetwork.framework in Frameworks */,
 				6EBEF1861C680F8900D2EF22 /* AudioToolbox.framework in Frameworks */,
-				F02496104BDD4BC726064943 /* libPods-KickitSpot.a in Frameworks */,
+				9AC6F5BAD70C505989279C2C /* libPods-KickitSpot.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +435,8 @@
 				6E377E431C6FE8F90016BDE9 /* HelperFunctions.h */,
 				6E377E441C6FE8FF0016BDE9 /* HelperFunctions.m */,
 				6EBEF17F1C6803AE00D2EF22 /* kConstants.h */,
+				6E8C967B1C715711004615DD /* kBackendConstants.h */,
+				6E8C967A1C715587004615DD /* kAppSettingsConstants.h */,
 			);
 			name = Constants;
 			sourceTree = "<group>";
@@ -611,6 +624,10 @@
 			children = (
 				6EBEF1761C68037A00D2EF22 /* MainPageViewController.h */,
 				6EBEF1771C68037A00D2EF22 /* MainPageViewController.m */,
+				6E8C96711C715101004615DD /* SettingsViewController.h */,
+				6E8C96721C715101004615DD /* SettingsViewController.m */,
+				6E8C96741C715131004615DD /* SubscribedSpotViewController.h */,
+				6E8C96751C715131004615DD /* SubscribedSpotViewController.m */,
 			);
 			name = KIViewControllers;
 			sourceTree = "<group>";
@@ -620,6 +637,8 @@
 			children = (
 				6EBEF1A01C6810A600D2EF22 /* KITabBarController.h */,
 				6EBEF1A11C6810A600D2EF22 /* KITabBarController.m */,
+				6E8C96771C7151CD004615DD /* KITabBarItem.h */,
+				6E8C96781C7151CD004615DD /* KITabBarItem.m */,
 			);
 			name = KITabBarController;
 			sourceTree = "<group>";
@@ -638,7 +657,7 @@
 				6EBEF1871C680F9000D2EF22 /* CFNetwork.framework */,
 				6EBEF1851C680F8900D2EF22 /* AudioToolbox.framework */,
 				C34F30B93C64F5933B216930 /* libPods-KickitSpotMobile.a */,
-				A119DDB1E501F37BFCEB8435 /* libPods-KickitSpot.a */,
+				4421333BC3BB3C6339CD7BD4 /* libPods-KickitSpot.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -866,6 +885,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E8C96791C7151CD004615DD /* KITabBarItem.m in Sources */,
 				6E377EAF1C6FEE110016BDE9 /* DOFavoriteButton.swift in Sources */,
 				6E377EB71C6FEE110016BDE9 /* LTInfiniteScrollView.m in Sources */,
 				6E377EB61C6FEE110016BDE9 /* UIView+Round.m in Sources */,
@@ -876,6 +896,7 @@
 				6EBEF1821C680B5100D2EF22 /* RootViewController.m in Sources */,
 				6E377EAC1C6FEE110016BDE9 /* AwesomeMenu.m in Sources */,
 				6E377EBB1C6FEE110016BDE9 /* Reachability.m in Sources */,
+				6E8C96761C715131004615DD /* SubscribedSpotViewController.m in Sources */,
 				6E377EA81C6FEE110016BDE9 /* AIFlatSwitch.swift in Sources */,
 				6E377EB51C6FEE110016BDE9 /* UIColor+JFMinimalNotificationColors.m in Sources */,
 				6EBEF17A1C68037A00D2EF22 /* MainPageViewController.m in Sources */,
@@ -893,6 +914,7 @@
 				57087F4C1C613DC000FA3ADC /* main.m in Sources */,
 				6E377EB31C6FEE110016BDE9 /* JFMinimalNotificationArt.m in Sources */,
 				6EBEF1721C68035D00D2EF22 /* AppDelegate.m in Sources */,
+				6E8C96731C715101004615DD /* SettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

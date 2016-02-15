@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>BLKFlexibleHeightBar.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Bolts.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -34,6 +39,16 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>UIScrollView-InfiniteScroll.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>ZCAnimatedLabel.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>ionicons.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -57,12 +72,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>279113FE152533397F6ED95EFE23E188</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>4CD92797A96766670A60AE5197C5FB82</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>90E260089C8D77FCFA787A420FD2DEA6</key>
+		<key>763173CD0FB3C4FAB842B0CEC456F7B9</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -72,12 +92,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>BC312C376905DC95A9181B66BAB394A7</key>
+		<key>AD1B95894B711569E0A00F4FD2071085</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F32A441B357D4F8B6E61773BE8F11352</key>
+		<key>D1E50E3231082C007600AF28782DAF8E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E66328E6966689B24258F4A27E52E06D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EBB8018177FA5300EAC53E25CBC309A2</key>
 		<dict>
 			<key>primary</key>
 			<true/>

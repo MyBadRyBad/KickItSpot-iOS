@@ -7,23 +7,8 @@
 //
 
 
-//////////////////////////////////////////////////
-//////////////////////////////////////////////////
-//
-// Backend Parse definitions
-//
-//////////////////////////////////////////////////
-//////////////////////////////////////////////////
-
-// user class
-static NSString* const kParseClassUserKey =         @"User";
-static NSString* const kParseUserProfilePictureKey = @"profilePicture";
-static NSString* const kParseUserLocationKey =      @"location";
-static NSString* const kParseUserFirstNameKey =     @"first_name";
-static NSString* const kParseUserLastNameKey =      @"last_name";
-static NSString* const kParseUserEmailKey =         @"email";
-static NSString* const kParseUserFacebookIDKeySDK = @"id";
-static NSString* const kParseUserUsernameKey =      @"username";
+#import "kAppSettingsConstants.h"
+#import "kBackendConstants.h"
 
 //////////////////////////////////////////////////
 //////////////////////////////////////////////////
@@ -32,6 +17,8 @@ static NSString* const kParseUserUsernameKey =      @"username";
 //
 //////////////////////////////////////////////////
 //////////////////////////////////////////////////
+static NSString* const kLogoFontName = @"Typo Round";
+
 static NSString* const kDefaultFontName = @"OpenSans";
 static NSString* const kDefaultFontNameBold = @"Opensans-Semibold";
 static NSString* const kJVFloatLabeledTextFieldPlaceholderFont = @"OpenSans-Semibold";

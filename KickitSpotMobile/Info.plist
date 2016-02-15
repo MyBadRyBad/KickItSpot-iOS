@@ -26,6 +26,46 @@
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Actor regular.ttf</string>
+		<string>Advent Pro 100.ttf</string>
+		<string>Advent Pro 200.ttf</string>
+		<string>Advent Pro 300.ttf</string>
+		<string>Advent Pro 500.ttf</string>
+		<string>Advent Pro 600.ttf</string>
+		<string>Advent Pro 700.ttf</string>
+		<string>Advent Pro regular.ttf</string>
+		<string>Open Sans 300.ttf</string>
+		<string>Open Sans 300italic.ttf</string>
+		<string>Open Sans 600italic.ttf</string>
+		<string>Open Sans 700.ttf</string>
+		<string>Open Sans 700italic.ttf</string>
+		<string>Open Sans 800.ttf</string>
+		<string>Open Sans 800italic.ttf</string>
+		<string>Open Sans italic.ttf</string>
+		<string>Open Sans regular.ttf</string>
+		<string>Roboto 100.ttf</string>
+		<string>Roboto 100italic.ttf</string>
+		<string>Roboto 300.ttf</string>
+		<string>Roboto 300italic.ttf</string>
+		<string>Roboto 500.ttf</string>
+		<string>Roboto 500italic.ttf</string>
+		<string>Roboto 700.ttf</string>
+		<string>Roboto 700italic.ttf</string>
+		<string>Roboto 900.ttf</string>
+		<string>Roboto 900italic.ttf</string>
+		<string>Roboto italic.ttf</string>
+		<string>Roboto regular.ttf</string>
+		<string>Typo_Round_Bold_Demo.otf</string>
+		<string>Typo_Round_Bold_Italic_Demo.otf</string>
+		<string>Typo_Round_Italic_Demo.otf</string>
+		<string>Typo_Round_Light_Demo.otf</string>
+		<string>Typo_Round_Light_Italic_Demo.otf</string>
+		<string>Typo_Round_Regular_Demo.otf</string>
+		<string>Typo_Round_Thin_Demo.otf</string>
+		<string>Typo_Round_Thin_Italic Demo.otf</string>
+	</array>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>

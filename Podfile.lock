@@ -1,4 +1,5 @@
 PODS:
+  - BLKFlexibleHeightBar (1.0.2)
   - Bolts/Tasks (1.6.0)
   - DGActivityIndicatorView (2.0)
   - ionicons (2.0.3)
@@ -7,16 +8,22 @@ PODS:
     - Bolts/Tasks (~> 1.5)
   - pop (1.0.9)
   - STPopup (1.6.0)
+  - UIScrollView-InfiniteScroll (0.7.3)
+  - ZCAnimatedLabel (0.0.4)
 
 DEPENDENCIES:
+  - BLKFlexibleHeightBar
   - DGActivityIndicatorView
   - ionicons
   - MBProgressHUD (~> 0.9.2)
   - Parse
   - pop (~> 1.0)
   - STPopup
+  - UIScrollView-InfiniteScroll
+  - ZCAnimatedLabel
 
 SPEC CHECKSUMS:
+  BLKFlexibleHeightBar: b27572a69633d8e33f1f2bbc486b04d8e86f742d
   Bolts: f52a250053bb517ca874523c3913776359ab3def
   DGActivityIndicatorView: 52875b025a6ccf6a431a905285c12e2bb95eb559
   ionicons: ec1e86e6c3316bd9942a7f024080dd75c70dd6a5
@@ -24,5 +31,7 @@ SPEC CHECKSUMS:
   Parse: de2c52a9a1421b91ae7594ab8ce191afd184f19b
   pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
   STPopup: 7975883c48560e4cb16ea1c6f351312ed2cd2bc0
+  UIScrollView-InfiniteScroll: b6c7d6d155dca7f9c5dd43813ecffeb301b3d50c
+  ZCAnimatedLabel: 519b688bef4403fd356bc785f9b61cdfd8e6472d
 
 COCOAPODS: 0.39.0

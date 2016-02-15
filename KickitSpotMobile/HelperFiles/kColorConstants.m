@@ -104,6 +104,11 @@
     return [UIColor colorWithRed:41.0/255.0 green:128.0/255.0 blue:185.0/255.0 alpha:alpha];
 }
 
++(UIColor *)blueCharizard:(float)alpha
+{
+    return [UIColor colorWithRed:32.0f/255.0f green:115.0f/255.0f blue:148.0f/255.0f alpha:alpha];
+}
+
 //darkblue?
 +(UIColor *)blueWetAsphalt:(float)alpha
 {
