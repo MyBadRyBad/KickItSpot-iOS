@@ -14,7 +14,27 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>ChameleonFramework.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>DGActivityIndicatorView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>FFGlobalAlertController-FFGlobalAlertController.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>FFGlobalAlertController.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>GRKGradientView.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -62,57 +82,77 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>084B1FF8E099CDDF6B5FD3169504D512</key>
+		<key>291621037D68F7869D267C25CE205F97</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>12AC35F9C569FA2A4543EFEDD802D2C9</key>
+		<key>59058A102B490CEB444707EBB873A1A6</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>279113FE152533397F6ED95EFE23E188</key>
+		<key>61920B26AE8F767C67021B6BB14CF9AA</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>4CD92797A96766670A60AE5197C5FB82</key>
+		<key>7A8037B1A2648D8EEBAFDC5D91FEB286</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>763173CD0FB3C4FAB842B0CEC456F7B9</key>
+		<key>7AAA83A0B19E9AB585A6FFE3AAF1D304</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>9B916844F33E8D3CF7BC18CE424E9721</key>
+		<key>81FBB7E25FAC11BE4142745695ECF417</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>AD1B95894B711569E0A00F4FD2071085</key>
+		<key>86B77010D845B2DE7B2E9DDF93632CAF</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>D1E50E3231082C007600AF28782DAF8E</key>
+		<key>99A4109497D6BBC59AB563B86B250A0B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E66328E6966689B24258F4A27E52E06D</key>
+		<key>9B57F4EE4746045CEAE2D933A3C8EC9E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>EBB8018177FA5300EAC53E25CBC309A2</key>
+		<key>AF9231FABC1ABD66B51BBB24E5BCE138</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>FE2F1D7B9D9FCEA148517E4657B243F4</key>
+		<key>B0214E86E9E229E292863BC821997C4D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BCA053B6430690326435042FEB61B458</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E61CE3B6DFA1FE6B3E296965C76C0E10</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F2EBEB00628CB76C5E86A17F7E34851B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FE34F01D22113EF688A14D95236A999F</key>
 		<dict>
 			<key>primary</key>
 			<true/>

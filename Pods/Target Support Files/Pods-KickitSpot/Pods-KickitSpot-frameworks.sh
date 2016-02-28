@@ -82,3 +82,34 @@ strip_invalid_archs() {
   fi
 }
 
+
+if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "Pods-KickitSpot/BLKFlexibleHeightBar.framework"
+  install_framework "Pods-KickitSpot/Bolts.framework"
+  install_framework "Pods-KickitSpot/ChameleonFramework.framework"
+  install_framework "Pods-KickitSpot/DGActivityIndicatorView.framework"
+  install_framework "Pods-KickitSpot/FFGlobalAlertController.framework"
+  install_framework "Pods-KickitSpot/GRKGradientView.framework"
+  install_framework "Pods-KickitSpot/MBProgressHUD.framework"
+  install_framework "Pods-KickitSpot/Parse.framework"
+  install_framework "Pods-KickitSpot/STPopup.framework"
+  install_framework "Pods-KickitSpot/UIScrollView_InfiniteScroll.framework"
+  install_framework "Pods-KickitSpot/ZCAnimatedLabel.framework"
+  install_framework "Pods-KickitSpot/ionicons.framework"
+  install_framework "Pods-KickitSpot/pop.framework"
+fi
+if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "Pods-KickitSpot/BLKFlexibleHeightBar.framework"
+  install_framework "Pods-KickitSpot/Bolts.framework"
+  install_framework "Pods-KickitSpot/ChameleonFramework.framework"
+  install_framework "Pods-KickitSpot/DGActivityIndicatorView.framework"
+  install_framework "Pods-KickitSpot/FFGlobalAlertController.framework"
+  install_framework "Pods-KickitSpot/GRKGradientView.framework"
+  install_framework "Pods-KickitSpot/MBProgressHUD.framework"
+  install_framework "Pods-KickitSpot/Parse.framework"
+  install_framework "Pods-KickitSpot/STPopup.framework"
+  install_framework "Pods-KickitSpot/UIScrollView_InfiniteScroll.framework"
+  install_framework "Pods-KickitSpot/ZCAnimatedLabel.framework"
+  install_framework "Pods-KickitSpot/ionicons.framework"
+  install_framework "Pods-KickitSpot/pop.framework"
+fi

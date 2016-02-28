@@ -52,7 +52,6 @@
 		6E377E411C6FE83D0016BDE9 /* Typo_Round_Thin_Demo.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6E377E1B1C6FE83D0016BDE9 /* Typo_Round_Thin_Demo.otf */; };
 		6E377E421C6FE83D0016BDE9 /* Typo_Round_Thin_Italic Demo.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6E377E1C1C6FE83D0016BDE9 /* Typo_Round_Thin_Italic Demo.otf */; };
 		6E377E451C6FE8FF0016BDE9 /* HelperFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E377E441C6FE8FF0016BDE9 /* HelperFunctions.m */; };
-		6E377E651C6FEA8C0016BDE9 /* kColorConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E377E641C6FEA8C0016BDE9 /* kColorConstants.m */; };
 		6E377EA81C6FEE110016BDE9 /* AIFlatSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E377E711C6FEE110016BDE9 /* AIFlatSwitch.swift */; };
 		6E377EA91C6FEE110016BDE9 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6E377E721C6FEE110016BDE9 /* Info.plist */; };
 		6E377EAC1C6FEE110016BDE9 /* AwesomeMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E377E7B1C6FEE110016BDE9 /* AwesomeMenu.m */; };
@@ -75,6 +74,8 @@
 		6E8C96731C715101004615DD /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E8C96721C715101004615DD /* SettingsViewController.m */; };
 		6E8C96761C715131004615DD /* SubscribedSpotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E8C96751C715131004615DD /* SubscribedSpotViewController.m */; };
 		6E8C96791C7151CD004615DD /* KITabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E8C96781C7151CD004615DD /* KITabBarItem.m */; };
+		6EB3F7F91C82CFA8009A1DD7 /* KickItSpotMainBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB3F7F81C82CFA8009A1DD7 /* KickItSpotMainBox.m */; };
+		6EB3F8031C82D818009A1DD7 /* kColorConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB3F8001C82D818009A1DD7 /* kColorConstants.m */; };
 		6EBEF1721C68035D00D2EF22 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EBEF1711C68035D00D2EF22 /* AppDelegate.m */; };
 		6EBEF1751C68036C00D2EF22 /* SignInView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EBEF1741C68036C00D2EF22 /* SignInView.m */; };
 		6EBEF17A1C68037A00D2EF22 /* MainPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EBEF1771C68037A00D2EF22 /* MainPageViewController.m */; };
@@ -91,7 +92,8 @@
 		6EBEF1961C680FCD00D2EF22 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EBEF1951C680FCD00D2EF22 /* libz.tbd */; };
 		6EBEF1981C680FD700D2EF22 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EBEF1971C680FD700D2EF22 /* libsqlite3.tbd */; };
 		6EBEF1A21C6810A600D2EF22 /* KITabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EBEF1A11C6810A600D2EF22 /* KITabBarController.m */; };
-		9AC6F5BAD70C505989279C2C /* libPods-KickitSpot.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4421333BC3BB3C6339CD7BD4 /* libPods-KickitSpot.a */; };
+		6ED6224F1C83819B00607FEC /* KickItSpotMainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED6224E1C83819B00607FEC /* KickItSpotMainTableViewCell.m */; };
+		7AF7342EA068E38696F2FD34 /* Pods_KickitSpot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7C4B823F2C8035912B3274E /* Pods_KickitSpot.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -114,7 +116,6 @@
 /* Begin PBXFileReference section */
 		218AAC6CD709B16A533B4E65 /* Pods-KickitSpotMobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KickitSpotMobile.release.xcconfig"; path = "Pods/Target Support Files/Pods-KickitSpotMobile/Pods-KickitSpotMobile.release.xcconfig"; sourceTree = "<group>"; };
 		42D1B3F61542516C6145DE60 /* Pods-KickitSpot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KickitSpot.release.xcconfig"; path = "Pods/Target Support Files/Pods-KickitSpot/Pods-KickitSpot.release.xcconfig"; sourceTree = "<group>"; };
-		4421333BC3BB3C6339CD7BD4 /* libPods-KickitSpot.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KickitSpot.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		57087F471C613DC000FA3ADC /* KickitSpot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KickitSpot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57087F4B1C613DC000FA3ADC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		57087F541C613DC000FA3ADC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -169,8 +170,6 @@
 		6E377E1C1C6FE83D0016BDE9 /* Typo_Round_Thin_Italic Demo.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Typo_Round_Thin_Italic Demo.otf"; path = "fonts/Typo_Round_Thin_Italic Demo.otf"; sourceTree = "<group>"; };
 		6E377E431C6FE8F90016BDE9 /* HelperFunctions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HelperFunctions.h; path = HelperFiles/HelperFunctions.h; sourceTree = "<group>"; };
 		6E377E441C6FE8FF0016BDE9 /* HelperFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HelperFunctions.m; path = HelperFiles/HelperFunctions.m; sourceTree = "<group>"; };
-		6E377E631C6FEA8C0016BDE9 /* kColorConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = kColorConstants.h; path = HelperFiles/kColorConstants.h; sourceTree = "<group>"; };
-		6E377E641C6FEA8C0016BDE9 /* kColorConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = kColorConstants.m; path = HelperFiles/kColorConstants.m; sourceTree = "<group>"; };
 		6E377E701C6FEE110016BDE9 /* AIFlatSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIFlatSwitch.h; sourceTree = "<group>"; };
 		6E377E711C6FEE110016BDE9 /* AIFlatSwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AIFlatSwitch.swift; sourceTree = "<group>"; };
 		6E377E721C6FEE110016BDE9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -213,9 +212,14 @@
 		6E8C96751C715131004615DD /* SubscribedSpotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SubscribedSpotViewController.m; path = ViewControllers/SubscribedSpotViewController.m; sourceTree = "<group>"; };
 		6E8C96771C7151CD004615DD /* KITabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KITabBarItem.h; path = ViewControllers/KITabBarController/KITabBarItem.h; sourceTree = "<group>"; };
 		6E8C96781C7151CD004615DD /* KITabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KITabBarItem.m; path = ViewControllers/KITabBarController/KITabBarItem.m; sourceTree = "<group>"; };
-		6E8C967A1C715587004615DD /* kAppSettingsConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = kAppSettingsConstants.h; sourceTree = "<group>"; };
-		6E8C967B1C715711004615DD /* kBackendConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = kBackendConstants.h; sourceTree = "<group>"; };
-		6EB3F7EA1C82B24E009A1DD7 /* kStringConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = kStringConstants.h; sourceTree = "<group>"; };
+		6EB3F7F71C82CFA8009A1DD7 /* KickItSpotMainBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KickItSpotMainBox.h; path = Subviews/MainPageSubviews/KickItSpotMainBox.h; sourceTree = "<group>"; };
+		6EB3F7F81C82CFA8009A1DD7 /* KickItSpotMainBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KickItSpotMainBox.m; path = Subviews/MainPageSubviews/KickItSpotMainBox.m; sourceTree = "<group>"; };
+		6EB3F7FD1C82D818009A1DD7 /* kAppSettingsConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = kAppSettingsConstants.h; path = Constants/kAppSettingsConstants.h; sourceTree = "<group>"; };
+		6EB3F7FE1C82D818009A1DD7 /* kBackendConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = kBackendConstants.h; path = Constants/kBackendConstants.h; sourceTree = "<group>"; };
+		6EB3F7FF1C82D818009A1DD7 /* kColorConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = kColorConstants.h; path = Constants/kColorConstants.h; sourceTree = "<group>"; };
+		6EB3F8001C82D818009A1DD7 /* kColorConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = kColorConstants.m; path = Constants/kColorConstants.m; sourceTree = "<group>"; };
+		6EB3F8011C82D818009A1DD7 /* kConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = kConstants.h; path = Constants/kConstants.h; sourceTree = "<group>"; };
+		6EB3F8021C82D818009A1DD7 /* kStringConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = kStringConstants.h; path = Constants/kStringConstants.h; sourceTree = "<group>"; };
 		6EBEF1701C68035D00D2EF22 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = AppDelegate/AppDelegate.h; sourceTree = "<group>"; };
 		6EBEF1711C68035D00D2EF22 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = AppDelegate/AppDelegate.m; sourceTree = "<group>"; };
 		6EBEF1731C68036C00D2EF22 /* SignInView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SignInView.h; path = Subviews/SignInView.h; sourceTree = "<group>"; };
@@ -224,7 +228,6 @@
 		6EBEF1771C68037A00D2EF22 /* MainPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainPageViewController.m; path = ViewControllers/MainPageViewController.m; sourceTree = "<group>"; };
 		6EBEF17C1C68039000D2EF22 /* BackendFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BackendFunctions.h; path = HelperFiles/BackendFunctions.h; sourceTree = "<group>"; };
 		6EBEF17D1C68039000D2EF22 /* BackendFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BackendFunctions.m; path = HelperFiles/BackendFunctions.m; sourceTree = "<group>"; };
-		6EBEF17F1C6803AE00D2EF22 /* kConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = kConstants.h; path = HelperFiles/kConstants.h; sourceTree = "<group>"; };
 		6EBEF1801C680B5100D2EF22 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootViewController.h; path = RootViewController/RootViewController.h; sourceTree = "<group>"; };
 		6EBEF1811C680B5100D2EF22 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RootViewController.m; path = RootViewController/RootViewController.m; sourceTree = "<group>"; };
 		6EBEF1851C680F8900D2EF22 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
@@ -239,6 +242,10 @@
 		6EBEF1971C680FD700D2EF22 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		6EBEF1A01C6810A600D2EF22 /* KITabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KITabBarController.h; path = ViewControllers/KITabBarController/KITabBarController.h; sourceTree = "<group>"; };
 		6EBEF1A11C6810A600D2EF22 /* KITabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KITabBarController.m; path = ViewControllers/KITabBarController/KITabBarController.m; sourceTree = "<group>"; };
+		6ED6224C1C8369DA00607FEC /* kDictionaryKeyConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = kDictionaryKeyConstants.h; path = Constants/kDictionaryKeyConstants.h; sourceTree = "<group>"; };
+		6ED6224D1C83819B00607FEC /* KickItSpotMainTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KickItSpotMainTableViewCell.h; path = Subclasses/KickItSpotMainTableViewCell.h; sourceTree = "<group>"; };
+		6ED6224E1C83819B00607FEC /* KickItSpotMainTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KickItSpotMainTableViewCell.m; path = Subclasses/KickItSpotMainTableViewCell.m; sourceTree = "<group>"; };
+		B7C4B823F2C8035912B3274E /* Pods_KickitSpot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KickitSpot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C34F30B93C64F5933B216930 /* libPods-KickitSpotMobile.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KickitSpotMobile.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -257,7 +264,7 @@
 				6EBEF18A1C680F9A00D2EF22 /* CoreGraphics.framework in Frameworks */,
 				6EBEF1881C680F9000D2EF22 /* CFNetwork.framework in Frameworks */,
 				6EBEF1861C680F8900D2EF22 /* AudioToolbox.framework in Frameworks */,
-				9AC6F5BAD70C505989279C2C /* libPods-KickitSpot.a in Frameworks */,
+				7AF7342EA068E38696F2FD34 /* Pods_KickitSpot.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,9 +312,10 @@
 			children = (
 				6EBEF1841C680E6B00D2EF22 /* Storyboard */,
 				6EBEF16A1C6802E300D2EF22 /* AppDelegate */,
+				6EBEF16B1C6802E800D2EF22 /* ViewControllers */,
 				6E377E661C6FEA910016BDE9 /* Constants */,
 				6EBEF16C1C6802F200D2EF22 /* Subviews */,
-				6EBEF16B1C6802E800D2EF22 /* ViewControllers */,
+				6ED622501C8381A700607FEC /* Subclasses */,
 				57E7D71D1C61A7E8000641D5 /* Helper Files */,
 				57087F561C613DC000FA3ADC /* Assets.xcassets */,
 				57087F5B1C613DC000FA3ADC /* Info.plist */,
@@ -347,6 +355,8 @@
 		57E7D71D1C61A7E8000641D5 /* Helper Files */ = {
 			isa = PBXGroup;
 			children = (
+				6E377E431C6FE8F90016BDE9 /* HelperFunctions.h */,
+				6E377E441C6FE8FF0016BDE9 /* HelperFunctions.m */,
 				6EBEF17C1C68039000D2EF22 /* BackendFunctions.h */,
 				6EBEF17D1C68039000D2EF22 /* BackendFunctions.m */,
 			);
@@ -431,14 +441,13 @@
 		6E377E661C6FEA910016BDE9 /* Constants */ = {
 			isa = PBXGroup;
 			children = (
-				6E377E631C6FEA8C0016BDE9 /* kColorConstants.h */,
-				6E377E641C6FEA8C0016BDE9 /* kColorConstants.m */,
-				6EB3F7EA1C82B24E009A1DD7 /* kStringConstants.h */,
-				6E377E431C6FE8F90016BDE9 /* HelperFunctions.h */,
-				6E377E441C6FE8FF0016BDE9 /* HelperFunctions.m */,
-				6EBEF17F1C6803AE00D2EF22 /* kConstants.h */,
-				6E8C967B1C715711004615DD /* kBackendConstants.h */,
-				6E8C967A1C715587004615DD /* kAppSettingsConstants.h */,
+				6EB3F7FD1C82D818009A1DD7 /* kAppSettingsConstants.h */,
+				6EB3F7FE1C82D818009A1DD7 /* kBackendConstants.h */,
+				6EB3F7FF1C82D818009A1DD7 /* kColorConstants.h */,
+				6EB3F8001C82D818009A1DD7 /* kColorConstants.m */,
+				6EB3F8011C82D818009A1DD7 /* kConstants.h */,
+				6ED6224C1C8369DA00607FEC /* kDictionaryKeyConstants.h */,
+				6EB3F8021C82D818009A1DD7 /* kStringConstants.h */,
 			);
 			name = Constants;
 			sourceTree = "<group>";
@@ -575,6 +584,15 @@
 			path = "OpenSource/UIImage+ImageEffects";
 			sourceTree = "<group>";
 		};
+		6EB3F7F61C82CF62009A1DD7 /* MainPageSubviews */ = {
+			isa = PBXGroup;
+			children = (
+				6EB3F7F71C82CFA8009A1DD7 /* KickItSpotMainBox.h */,
+				6EB3F7F81C82CFA8009A1DD7 /* KickItSpotMainBox.m */,
+			);
+			name = MainPageSubviews;
+			sourceTree = "<group>";
+		};
 		6EBEF16A1C6802E300D2EF22 /* AppDelegate */ = {
 			isa = PBXGroup;
 			children = (
@@ -597,6 +615,7 @@
 		6EBEF16C1C6802F200D2EF22 /* Subviews */ = {
 			isa = PBXGroup;
 			children = (
+				6EB3F7F61C82CF62009A1DD7 /* MainPageSubviews */,
 				6EBEF1731C68036C00D2EF22 /* SignInView.h */,
 				6EBEF1741C68036C00D2EF22 /* SignInView.m */,
 			);
@@ -645,6 +664,15 @@
 			name = KITabBarController;
 			sourceTree = "<group>";
 		};
+		6ED622501C8381A700607FEC /* Subclasses */ = {
+			isa = PBXGroup;
+			children = (
+				6ED6224D1C83819B00607FEC /* KickItSpotMainTableViewCell.h */,
+				6ED6224E1C83819B00607FEC /* KickItSpotMainTableViewCell.m */,
+			);
+			name = Subclasses;
+			sourceTree = "<group>";
+		};
 		F18FFE6E845E93299A736262 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -659,7 +687,7 @@
 				6EBEF1871C680F9000D2EF22 /* CFNetwork.framework */,
 				6EBEF1851C680F8900D2EF22 /* AudioToolbox.framework */,
 				C34F30B93C64F5933B216930 /* libPods-KickitSpotMobile.a */,
-				4421333BC3BB3C6339CD7BD4 /* libPods-KickitSpot.a */,
+				B7C4B823F2C8035912B3274E /* Pods_KickitSpot.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -887,6 +915,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6ED6224F1C83819B00607FEC /* KickItSpotMainTableViewCell.m in Sources */,
 				6E8C96791C7151CD004615DD /* KITabBarItem.m in Sources */,
 				6E377EAF1C6FEE110016BDE9 /* DOFavoriteButton.swift in Sources */,
 				6E377EB71C6FEE110016BDE9 /* LTInfiniteScrollView.m in Sources */,
@@ -906,12 +935,13 @@
 				6E377EB41C6FEE110016BDE9 /* NSInvocation+Constructors.m in Sources */,
 				6E377EB91C6FEE110016BDE9 /* UIView+AccessViewController.m in Sources */,
 				6E377EB81C6FEE110016BDE9 /* MSCellAccessory.m in Sources */,
+				6EB3F8031C82D818009A1DD7 /* kColorConstants.m in Sources */,
 				6E377EAE1C6FEE110016BDE9 /* CKLinkedList.m in Sources */,
 				6E377EBC1C6FEE110016BDE9 /* SLExpandableTableView.m in Sources */,
 				6EBEF1751C68036C00D2EF22 /* SignInView.m in Sources */,
 				6E377EB21C6FEE110016BDE9 /* JFMinimalNotification.m in Sources */,
 				6E377E451C6FE8FF0016BDE9 /* HelperFunctions.m in Sources */,
-				6E377E651C6FEA8C0016BDE9 /* kColorConstants.m in Sources */,
+				6EB3F7F91C82CFA8009A1DD7 /* KickItSpotMainBox.m in Sources */,
 				6E377EBD1C6FEE110016BDE9 /* UIImage+ImageEffects.m in Sources */,
 				57087F4C1C613DC000FA3ADC /* main.m in Sources */,
 				6E377EB31C6FEE110016BDE9 /* JFMinimalNotificationArt.m in Sources */,

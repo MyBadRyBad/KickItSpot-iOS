@@ -71,7 +71,7 @@
 #pragma
 #pragma mark - Basic Spot Query
 
-+ (void)arrayQuery:(ArrayReturnBlock)returnArray
++ (void)queryAllSpots:(ArrayReturnBlock)onCompletion;
 {
     PFQuery *spotQuery = [PFQuery queryWithClassName:@"Cypher"];
     [spotQuery selectKeys:@[@"name",@"photo",@"permalink"]];
@@ -79,13 +79,12 @@
     {
         if (!error)
         {
-            NSLog(@"NO ERROR");
+            onCompletion(objects, nil);
         }
         else
         {
-            NSLog(@"%@",error.localizedDescription);
+            onCompletion(nil, error);
         }
-        returnArray(objects,error);
     }];
 }
 
@@ -202,6 +201,24 @@
             NSLog(@"YOU SHALL NOT PASS %@",error.localizedDescription);
         }
     }]; */
+}
+
+#pragma mark -
+#pragma mark - error handling
++ (UIAlertController *)alertControllerForError:(NSError *)error
+{
+    NSString *titleString = NSLocalizedString(@"Oh no!", nil);
+    
+    UIAlertController *alertController = [UIAlertController alertControllerWithTitle:titleString message:error.localizedDescription preferredStyle:UIAlertControllerStyleAlert];
+    
+    UIAlertAction *cancelAction = [UIAlertAction
+                                   actionWithTitle:NSLocalizedString(@"OK", @"Cancel action")
+                                   style:UIAlertActionStyleCancel
+                                   handler:nil];
+    
+    [alertController addAction:cancelAction];
+    
+    return alertController;
 }
 
 

@@ -8,7 +8,7 @@
 
 #import "RootViewController.h"
 #import "KITabBarController.h"
-#import <IonIcons.h>
+#import "IonIcons.h"
 #import "MainPageViewController.h"
 #import "SettingsViewController.h"
 #import "SubscribedSpotViewController.h"
@@ -32,8 +32,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self setupViewController];
-    
-    [HelperFunctions printAvailableFonts];
 }
 
 - (void)viewDidAppear:(BOOL)animated

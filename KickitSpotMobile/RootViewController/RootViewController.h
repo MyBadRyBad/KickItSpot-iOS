@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <ZCDuangLabel.h>
+#import "ZCDuangLabel.h"
 
 @interface RootViewController : UIViewController
 

@@ -7,9 +7,15 @@
 //
 
 #import "MainPageViewController.h"
+#import "MBProgressHUD.h"
+#import "BackendFunctions.h"
 #import "kColorConstants.h"
+#import "kDictionaryKeyConstants.h"
 #import "kConstants.h"
-#import <UIScrollView+InfiniteScroll.h>
+#import "HelperFunctions.h"
+#import "KickItSpotMainTableViewCell.h"
+#import "UIScrollView+InfiniteScroll.h"
+#import "UIAlertController+Window.h"
 
 @interface MainPageViewController () <UITableViewDataSource, UITableViewDelegate>
 
@@ -26,6 +32,12 @@
     [self setupViewController];
 }
 
+- (void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    
+    [self setupData];
+}
 
 #pragma mark -
 #pragma mark - didReceiveMemoryWarning
@@ -41,6 +53,30 @@
     if (_dataSource == DataSourceLocalTest)
     {
         _spotDataArray = [NSMutableArray new];
+        
+        for (int index = 0; index < 10; index++)
+        {
+            NSMutableDictionary *dictionary = [[NSMutableDictionary alloc] init];
+            NSString *spotName = [NSString stringWithFormat:@"Kick It Spot %d", index];
+            
+            [dictionary setObject:spotName forKey:kSpotNameKey];
+            [_spotDataArray addObject:dictionary];
+            
+            [_tableView reloadData];
+        }
+        
+    }
+    else
+    {
+        [BackendFunctions queryAllSpots:^(NSArray *array, NSError *error) {
+            if (!error)
+            {
+                _spotDataArray = [[NSMutableArray alloc] initWithArray:array];
+                [_tableView reloadData];
+            }
+            else
+                [[BackendFunctions alertControllerForError:error] show];
+        }];
     }
 }
 
@@ -69,6 +105,7 @@
     // add horizontal constraints
     [self.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:|[_tableView]|" options:0 metrics:metrics views:viewsDictionary]];
 }
+
 
 #pragma mark -
 #pragma mark - tableView delegates
@@ -114,21 +151,26 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     
-    NSString *cellID = [NSString stringWithFormat:@"cellID-%ld", (long)indexPath.section];
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellID];
+    NSString *cellID = [NSString stringWithFormat:@"cellID-%ld-%ld", (long)indexPath.row, (long)indexPath.section];
+    KickItSpotMainTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellID];
     
     if (cell == nil)
     {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellID];
+        cell = [[KickItSpotMainTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellID];
+    
+    
     }
     
+    NSDictionary *spotData = [_spotDataArray objectAtIndex:indexPath.row];
+    
+    cell.kickItSpotSubview.kickItSpotNameLabel.text = spotData[kSpotNameKey];
     
     return cell;
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    return -1;
+    return 210;
 }
 
 
@@ -145,11 +187,12 @@
         _tableView.dataSource = self;
         _tableView.scrollEnabled = YES;
         _tableView.tableFooterView = nil;
+        _tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
         [_tableView setSeparatorInset:UIEdgeInsetsZero];
         [_tableView setLayoutMargins:UIEdgeInsetsZero];
         
         [_tableView setBackgroundView:nil];
-        _tableView.backgroundColor = [UIColor colorWithRed:236.0/255.0 green:240.0/255.0 blue:241.0/255.0 alpha:1.0];
+        _tableView.backgroundColor = [UIColor whiteColor];
         
         
         // change indicator view style to white

@@ -435,5 +435,42 @@
     return isEnabled;
 }
 
+#pragma mark -
+#pragma mark - color helper
++ (UIColor *)randomFlatUIColor
+{
+    NSInteger randomNumber = arc4random() % 12;
+    
+    switch (randomNumber) {
+        case 0:
+            return [kColorConstants greenEmeraldColor:1.0f];
+        case 1:
+            return [kColorConstants greenNephritisColor:1.0f];
+        case 2:
+            return [kColorConstants redAlizarin:1.0f];
+        case 3:
+            return [kColorConstants redPomegranate:1.0f];
+        case 4:
+            return [kColorConstants bluePeterRiver:1.0f];
+        case 5:
+            return [kColorConstants blueBelizeHole:1.0f];
+        case 6:
+            return [kColorConstants blueMidnightBlue:1.0f];
+        case 7:
+            return [kColorConstants greyClouds:1.0f];
+        case 8:
+            return [kColorConstants greyConcrete:1.0f];
+        case 9:
+            return [kColorConstants greySilver:1.0f];
+        case 10:
+            return [kColorConstants greyAsbestos:1.0f];
+        case 11:
+            return [kColorConstants purpleAmethyst:1.0f];
+        default:
+            return [kColorConstants purpleWisteria:1.0f];
+            break;
+    }
+}
+
 
 @end

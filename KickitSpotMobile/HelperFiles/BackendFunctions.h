@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "UIAlertController+Window.h"
 
 @interface BackendFunctions : NSObject
 
@@ -36,9 +36,9 @@ typedef void (^ArrayReturnBlock)(NSArray *array, NSError *error);
 + (BOOL)userIsLoggedIn;
 
 #pragma
-#pragma mark - Basic Spot Query
+#pragma mark - Spot Query
 
-+ (void)arrayQuery:(ArrayReturnBlock)returnArray;
++ (void)queryAllSpots:(ArrayReturnBlock)onCompletion;
 
 + (void)searchSpotQueryWithSpotName:(NSString *)spotName
                             inArray:(ArrayReturnBlock)returnArray;
@@ -62,5 +62,7 @@ typedef void (^ArrayReturnBlock)(NSArray *array, NSError *error);
 + (void)saveNewsMessageWithText:(NSString *)message
                        withUser:(NSDictionary *)user
                       andSpotId:(NSDictionary *)spot;
+
++ (UIAlertController *)alertControllerForError:(NSError *)error;
 
 @end
