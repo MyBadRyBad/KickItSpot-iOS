@@ -9,13 +9,14 @@
 #import "RootViewController.h"
 #import "KITabBarController.h"
 #import <IonIcons.h>
-#import <ZCDuangLabel.h>
 #import "MainPageViewController.h"
 #import "SettingsViewController.h"
 #import "SubscribedSpotViewController.h"
 #import "kColorConstants.h"
+#import "kStringConstants.h"
 #import "HelperFunctions.h"
 #import "kConstants.h"
+#import <objc/runtime.h>
 
 @interface RootViewController ()
 
@@ -31,6 +32,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self setupViewController];
+    
+    [HelperFunctions printAvailableFonts];
 }
 
 - (void)viewDidAppear:(BOOL)animated
@@ -47,9 +50,10 @@
 #pragma mark - setup
 - (void)setupViewController
 {
-    [self.view addSubview:[self kickItSpotLabel]];
+   [self.view addSubview:[self kickItSpotLabel]];
     
    // [self setupConstraints];
+    
 }
 
 - (void)setupConstraints
@@ -70,8 +74,25 @@
 #pragma mark - View Controller Launch
 - (void)animateLogoLabelAndLaunch
 {
+    _kickItSpotLabel.text = @"KickItSpot";
+    _kickItSpotLabel.animationDuration = 0.50f;
+    _kickItSpotLabel.animationDelay = 0.25f;
+    _kickItSpotLabel.onlyDrawDirtyArea = YES;
+    _kickItSpotLabel.layerBased = NO;
+    
+    UIColor *greyColor = [UIColor colorWithRed:67.0f/255.0f green:74.0f/255.0f blue:84.0f/255.0f alpha:1.0f];
+    
+    NSMutableParagraphStyle *style = [[NSParagraphStyle defaultParagraphStyle] mutableCopy];
+    style.lineSpacing = 5;
+    style.alignment = NSTextAlignmentCenter;
+    NSMutableAttributedString *mutableString = [[[NSAttributedString alloc] initWithString:_kickItSpotLabel.text attributes:@{NSFontAttributeName : [UIFont fontWithName:kLogoFontName size:45.0f], NSParagraphStyleAttributeName : style, NSForegroundColorAttributeName : [UIColor blackColor]}] mutableCopy];
+    [mutableString addAttribute:NSForegroundColorAttributeName value:greyColor range:[mutableString.string rangeOfString:@"KickIt"]];
+    [mutableString addAttribute:NSForegroundColorAttributeName value:[kColorConstants blueCharizard:1.0f] range:[mutableString.string rangeOfString:@"Spot"]];
+    
+    _kickItSpotLabel.attributedString = mutableString;
+    
     [_kickItSpotLabel startAppearAnimation];
-    [self performSelector:@selector(setupViewAndLaunch) withObject:nil afterDelay:10.0f];
+    [self performSelector:@selector(setupViewAndLaunch) withObject:nil afterDelay:4.0f];
 }
 
 - (void)setupViewAndLaunch
@@ -97,11 +118,11 @@
     // setup tab bar and tabBarItems
     [tabBarController setViewControllers:tabViewControllers];
     
-    mainPageViewController.tabBarItem =[[UITabBarItem alloc] initWithTitle:@"Spots" image:spotsImage selectedImage:spotsImageSelected];
+    mainPageViewController.tabBarItem =[[UITabBarItem alloc] initWithTitle:NSLocalizedString(kTabBarTextSpots, nil) image:spotsImage selectedImage:spotsImageSelected];
     
-    subscribedSpotViewController.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"Subscribed" image:subscribedImage selectedImage:subscribedImageSelected];
+    subscribedSpotViewController.tabBarItem = [[UITabBarItem alloc] initWithTitle:NSLocalizedString(kTabBarTextSubscribed, nil) image:subscribedImage selectedImage:subscribedImageSelected];
     
-    settingsViewController.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"Settings" image:settingsImage selectedImage:settingsImageSelected];
+    settingsViewController.tabBarItem = [[UITabBarItem alloc] initWithTitle:NSLocalizedString(kTabBarTextSettings, nil) image:settingsImage selectedImage:settingsImageSelected];
     
     
     // setup navigation bar
@@ -111,11 +132,19 @@
     [self presentViewController:navigationBarController animated:YES completion:nil];
 }
 
+
+#pragma mark -
+#pragma mark - didReceiveMemoryWarning
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)pressedButton:(id)sender
+{
+    [_kickItSpotLabel setNeedsDisplay];
+    [_kickItSpotLabel startAppearAnimation];
+}
 
 #pragma mark -
 #pragma mark - getter methods
@@ -123,26 +152,8 @@
 {
     if (!_kickItSpotLabel)
     {
-   //     _kickItSpotLabel = [[ZCDuangLabel alloc] init];
-   //     _kickItSpotLabel.translatesAutoresizingMaskIntoConstraints = NO;
-        _kickItSpotLabel = [[ZCDuangLabel alloc] initWithFrame:CGRectMake(20, (self.view.frame.size.height * 0.5) - 45, self.view.frame.size.width - 40, 90)];
-        
-        _kickItSpotLabel.text = @"KickItSpot";
-        _kickItSpotLabel.animationDuration = 0.55f;
-        _kickItSpotLabel.animationDelay = 0.25f;
-     //   _kickItSpotLabel.onlyDrawDirtyArea = YES;
-     //   _kickItSpotLabel.layerBased = NO;
-   
-        UIColor *greyColor = [UIColor colorWithRed:67.0f/255.0f green:74.0f/255.0f blue:84.0f/255.0f alpha:1.0f];
-        
-        NSMutableParagraphStyle *style = [[NSParagraphStyle defaultParagraphStyle] mutableCopy];
-        style.lineSpacing = 5;
-        style.alignment = NSTextAlignmentCenter;
-        NSMutableAttributedString *mutableString = [[[NSAttributedString alloc] initWithString:_kickItSpotLabel.text attributes:@{NSFontAttributeName : [UIFont fontWithName:kLogoFontName size:45.0f], NSParagraphStyleAttributeName : style, NSForegroundColorAttributeName : [UIColor blackColor]}] mutableCopy];
-        [mutableString addAttribute:NSForegroundColorAttributeName value:greyColor range:[mutableString.string rangeOfString:@"KickIt"]];
-        [mutableString addAttribute:NSForegroundColorAttributeName value:[kColorConstants blueCharizard:1.0f] range:[mutableString.string rangeOfString:@"Spot"]];
 
-        _kickItSpotLabel.attributedString = mutableString; 
+        _kickItSpotLabel = [[ZCDuangLabel alloc] initWithFrame:CGRectMake(20, (self.view.frame.size.height * 0.5) - 45, self.view.frame.size.width - 40, 90)];
     }
     
     return _kickItSpotLabel;

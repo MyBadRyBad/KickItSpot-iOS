@@ -19,11 +19,16 @@
 
 @implementation MainPageViewController
 
+#pragma mark -
+#pragma mark - View Controller lifecycle
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self setupViewController];
 }
 
+
+#pragma mark -
+#pragma mark - didReceiveMemoryWarning
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

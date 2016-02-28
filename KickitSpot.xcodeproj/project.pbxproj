@@ -215,6 +215,7 @@
 		6E8C96781C7151CD004615DD /* KITabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KITabBarItem.m; path = ViewControllers/KITabBarController/KITabBarItem.m; sourceTree = "<group>"; };
 		6E8C967A1C715587004615DD /* kAppSettingsConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = kAppSettingsConstants.h; sourceTree = "<group>"; };
 		6E8C967B1C715711004615DD /* kBackendConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = kBackendConstants.h; sourceTree = "<group>"; };
+		6EB3F7EA1C82B24E009A1DD7 /* kStringConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = kStringConstants.h; sourceTree = "<group>"; };
 		6EBEF1701C68035D00D2EF22 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = AppDelegate/AppDelegate.h; sourceTree = "<group>"; };
 		6EBEF1711C68035D00D2EF22 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = AppDelegate/AppDelegate.m; sourceTree = "<group>"; };
 		6EBEF1731C68036C00D2EF22 /* SignInView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SignInView.h; path = Subviews/SignInView.h; sourceTree = "<group>"; };
@@ -432,6 +433,7 @@
 			children = (
 				6E377E631C6FEA8C0016BDE9 /* kColorConstants.h */,
 				6E377E641C6FEA8C0016BDE9 /* kColorConstants.m */,
+				6EB3F7EA1C82B24E009A1DD7 /* kStringConstants.h */,
 				6E377E431C6FE8F90016BDE9 /* HelperFunctions.h */,
 				6E377E441C6FE8FF0016BDE9 /* HelperFunctions.m */,
 				6EBEF17F1C6803AE00D2EF22 /* kConstants.h */,

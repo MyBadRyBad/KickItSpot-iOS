@@ -17,7 +17,7 @@
 //
 //////////////////////////////////////////////////
 //////////////////////////////////////////////////
-static NSString* const kLogoFontName = @"Typo Round";
+static NSString* const kLogoFontName = @"Typo Round Regular Demo";
 
 static NSString* const kDefaultFontName = @"OpenSans";
 static NSString* const kDefaultFontNameBold = @"Opensans-Semibold";
@@ -25,35 +25,6 @@ static NSString* const kJVFloatLabeledTextFieldPlaceholderFont = @"OpenSans-Semi
 
 static CGFloat const kDefaultFontSize = 16.0f;
 static CGFloat const kButtonFontSize = 20.0f;
-
-#define DEFAULT_TEXT_COLOR_WELCOME_VIEW         [UIColor whiteColor]
-#define DEFAULT_TEXT_TINT_COLOR_WELCOME_VIEW    [UIColor whiteColor]
-#define PLACEHOLDER_TEXT_COLOR_WELCOME_VIEW     [UIColor colorWithWhite:0.9 alpha:1.0f]
-#define DEFAULT_TEXT_COLOR(ALPHA)               [UIColor whiteColor]
-#define DEFAULT_ONBOARDING_BACKGROUND_COLOR     [kColorConstants blueMidnightBlue:1.0f]
-
-//////////////////////////////////////////////////
-//////////////////////////////////////////////////
-//
-// AlertView Error Definitions
-//
-//////////////////////////////////////////////////
-//////////////////////////////////////////////////
-
-static NSString* const kAlertViewErrorTitle = @"Uh oh!";
-static NSString* const kAlertViewErrorCancelButton = @"Ok";
-
-static NSString* const kAlertViewErrorMessage_AccountNeedsLink = @"It looks like you already have an account with KickItSpot. Sign in and then go to Settings to link your Facebook.";
-static NSInteger const kErrorCode_AccountNeedsLink = 1650;
-
-static NSString* const kAlertViewErrorMessage_ConnectionFailed = @"The Internet connection appears to be offline.";
-static NSString* const kAlertViewErrorMessage_ServerConnection = @"Could not connect to the server.";
-static NSString* const kAlertViewErrorMessage_EmailExists = @"Email is already taken.";
-static NSString* const kAlertViewErrorMessage_EmailNotFound = @"This email does not exist.";
-static NSString* const kAlertViewErrorMessage_EmailPasswordIncorrect = @"Email address could not be found/the password is incorrect.";
-
-static NSString* const kAlertViewErrorMessage_FacebookAccountAlreadyExists = @"We couldn't link your account. Looks like an existing account is already linked.";
-
 
 //////////////////////////////////////////////////
 //////////////////////////////////////////////////
